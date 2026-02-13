@@ -26,8 +26,14 @@
 }
 
 @layer base {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
   html {
     scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 
   body {

@@ -3,7 +3,7 @@ export const formatPrice = (price) => {
   return new Intl.NumberFormat("en-US", {
     style: "currency",
     currency: "IDR",
-    minimumFractionDigits: 2,
-    maximumFractionDigits: 2,
+    notation: "compact",
+    maximumFractionDigits: 1,
   }).format(price);
 };

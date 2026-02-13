@@ -3,6 +3,8 @@ import { fetchVilla } from "@/api/VillaGecko";
 
 export const useVilla = () => {
   const [villaList, setVillaList] = useState([]);
+  const [whislist, setWhislist] = useState([]);
+
   useEffect(() => {
     fetchVillasData();
   }, []);
@@ -15,6 +17,8 @@ export const useVilla = () => {
       console.log(error);
     }
   };
+
+  const addToWhistlist = () => {};
 
   return { villaList };
 };

@@ -8,7 +8,7 @@ import { formatPrice } from "@/utils/Formatter";
 
 export const Card = ({ villa }) => {
   return (
-    <div className="relative overflow-hidden rounded-xl glass text-sm text-primary">
+    <div className="relative overflow-hidden rounded-xl glass text-sm text-primary hover:bg-primary/10">
       {/* Card images */}
       <div className="flex h-50">
         <img
@@ -16,7 +16,7 @@ export const Card = ({ villa }) => {
           alt={villa.name}
           className="h-full w-full object-cover"
         />
-        <div className="absolute top-4 right-2 text-red-500 text-lg">
+        <div className="absolute top-4 right-2 text-red-500 text-lg cursor-pointer">
           <FaRegHeart />
         </div>
         <div className="absolute top-2 left-2 glass-soft rounded-xl p-2 text-xs text-accent tracking-tight">
@@ -27,7 +27,7 @@ export const Card = ({ villa }) => {
       {/* Card Title and Price */}
       <div className="flex justify-between px-2 py-3 text-text">
         <div className="flex flex-col tracking-tight">
-          <div className="font-serif font-bold pr-10">{villa.name}</div>
+          <div className="font-serif font-bold">{villa.name}</div>
           <div className="flex items-center text-sm text-gray-50/50">
             <MdLocationOn />
             <div>{villa.location}</div>
@@ -39,12 +39,12 @@ export const Card = ({ villa }) => {
       </div>
 
       {/* Card amenties */}
-      <div className="flex justify-between px-2 py-3">
+      <div className="flex justify-between px-2 py-3 border-t border-b border-accent/30">
         <div className="flex flex-col gap-1">
           <div className="text-2xl">
             <IoBedOutline />
           </div>
-          <div className="text-muted">BEDROOMS</div>
+          <div className="text-muted-foreground/80">BEDROOMS</div>
           <div className="font-bold text-secondary-foreground">
             {villa.amenities.bed} Beds
           </div>
@@ -53,7 +53,7 @@ export const Card = ({ villa }) => {
           <div className="text-2xl">
             <MdOutlineBathtub />
           </div>
-          <div className="text-muted">BATHROOMS</div>
+          <div className="text-muted-foreground/80">BATHROOMS</div>
           <div className="font-bold text-secondary-foreground">
             {villa.amenities.bathtub} Baths
           </div>
@@ -62,7 +62,7 @@ export const Card = ({ villa }) => {
           <div className="text-2xl">
             <MdPool />
           </div>
-          <div className="text-muted">POOL</div>
+          <div className="text-muted-foreground/80">POOL</div>
           <div className="font-bold text-secondary-foreground">
             {villa.amenities.pool ? "Yes" : "No"}
           </div>
@@ -71,7 +71,11 @@ export const Card = ({ villa }) => {
       {/* Card Button */}
       <Link to={`/detail/${villa.name}`}>
         <div className="flex items-center justify-between">
-          <Button size="sm" className="m-2 w-full" background="primary">
+          <Button
+            size="sm"
+            className="m-2 w-full hover:scale-[1.02] active:scale-95 transition-all"
+            background="primary"
+          >
             View Details
             <span>
               <FaArrowRightLong />
