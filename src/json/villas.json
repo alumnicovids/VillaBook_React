@@ -1,0 +1,1774 @@
+[
+  {
+    "id": 1,
+    "name": "Le Ayu Villa Canggu",
+    "tag": "Couple Villa",
+    "rating": 4.8,
+    "location": "Canggu, Bali",
+    "amenities": {
+      "bed": 2,
+      "bathtub": 3,
+      "pool": true
+    },
+    "price": 1500000,
+    "image": [
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/745599491.jpg",
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/745599887.jpg",
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/745600118.jpg",
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/745600285.jpg",
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/745600438.jpg",
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/745600691.jpg",
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/745600927.jpg",
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/745601297.jpg",
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/745601535.jpg",
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/745601764.jpg",
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/745601910.jpg",
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/745602123.jpg",
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/745602425.jpg",
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/745602774.jpg",
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/745603072.jpg",
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/745603293.jpg",
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/745603679.jpg",
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/745604136.jpg",
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/746707041.jpg",
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/746707203.jpg",
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/746707256.jpg",
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/746707757.jpg",
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/746708489.jpg",
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/746708976.jpg",
+      "/VillaPhoto/Couple_Villas/LeAyuVillaCanggu/747814295.jpg"
+    ],
+    "promo": {
+      "status": "none",
+      "disc": "0%"
+    },
+    "detail": {
+      "priceRange": "IDR 1.500.000 - IDR 3.500.000 ",
+      "roomType": "1 Bedroom Private Pool Villa",
+      "description": "Enjoy a luxurious stay at Le Ayu Villa Canggu. This villa offers total privacy with a modern tropical design, an open-plan living area, and a private pool surrounded by lush gardens.",
+      "checkInTime": "14:00 PM",
+      "checkOutTime": "12:00 PM",
+      "address": "Munduk Tengah Street No. 3, Pererenan, Mengwi District, Badung Regency, Bali 80351",
+      "nearbyPlaces": [
+        "Berawa Beach (10 menit)",
+        "Finn's Beach Club (12 menit)",
+        "Atlas Beach Fest (12 menit)",
+        "Pererenan Beach (2.5 km)",
+        "Echo Beach (2.5 km)"
+      ],
+      "cancellationPolicy": "Free cancellation up to 48 hours before arrival date.",
+      "extraServices": [
+        { "type": "Floating Breakfast", "price": 250000 },
+        { "type": "Airport Transfer", "price": 300000 },
+        { "type": "Massage & Spa in Villa", "price": 350000 },
+        { "type": "Car & Bicycle Rental", "price": 150000 }
+      ],
+      "facilities": [
+        "Free WiFi",
+        "Free Private Parking",
+        "Air Conditioning",
+        "Fully Equipped Kitchenette",
+        "Flat-screen TV",
+        "Seating Area",
+        "24-hour Front Desk"
+      ]
+    },
+    "rooms": [
+      { "type": "Standard Room", "price": 1500000 },
+      { "type": "Deluxe Room", "price": 2000000 },
+      { "type": "Suite Room", "price": 3500000 }
+    ]
+  },
+
+  {
+    "id": 2,
+    "name": "Sake Bali Suites",
+    "tag": "Couple Villa",
+    "rating": 5.0,
+    "location": "Tampaksiring, Bali",
+    "amenities": {
+      "bed": 1,
+      "bathtub": 1,
+      "pool": true
+    },
+    "price": 844700,
+    "image": [
+      "/VillaPhoto/Couple_Villas/SakeBaliSuites/777381830.jpg",
+      "/VillaPhoto/Couple_Villas/SakeBaliSuites/777381768.jpg",
+      "/VillaPhoto/Couple_Villas/SakeBaliSuites/777381811.jpg",
+      "/VillaPhoto/Couple_Villas/SakeBaliSuites/777381819.jpg",
+      "/VillaPhoto/Couple_Villas/SakeBaliSuites/777381823.jpg",
+      "/VillaPhoto/Couple_Villas/SakeBaliSuites/777381824.jpg",
+      "/VillaPhoto/Couple_Villas/SakeBaliSuites/777381829.jpg",
+      "/VillaPhoto/Couple_Villas/SakeBaliSuites/777381839.jpg",
+      "/VillaPhoto/Couple_Villas/SakeBaliSuites/777381844.jpg",
+      "/VillaPhoto/Couple_Villas/SakeBaliSuites/777381845.jpg",
+      "/VillaPhoto/Couple_Villas/SakeBaliSuites/777384848.jpg",
+      "/VillaPhoto/Couple_Villas/SakeBaliSuites/777384855.jpg",
+      "/VillaPhoto/Couple_Villas/SakeBaliSuites/777726398.jpg",
+      "/VillaPhoto/Couple_Villas/SakeBaliSuites/777728603.jpg"
+    ],
+    "promo": {
+      "status": "active",
+      "disc": "10%"
+    },
+    "detail": {
+      "priceRange": "IDR 844.700 - IDR 1.200.000",
+      "roomType": "Suite with Private Pool & Gym Access",
+      "description": "Experience luxury harmonized with spirituality and nature at Sake Bali Suites, Tampaksiring. Located among Bali’s iconic green rice paddies, our suites provide total seclusion for couples. Offering a blend of modern fitness amenities and easy access to historic holy sites, it’s the ultimate sanctuary for wellness and tranquility.",
+      "checkInTime": "14:00 PM - 23:00 PM",
+      "checkOutTime": "06:00 AM - 12:00 PM",
+      "address": "Erlangga Street, Manukaya, Tampaksiring District, Gianyar Regency, Bali 80552",
+      "nearbyPlaces": [
+        "Pura Mengening (1.8 km)",
+        "Tirta Empul Temple (2.0 km)",
+        "Istana Tampaksiring (2.2 km)",
+        "Gunung Kawi Temple (2.8 km)",
+        "Tegallalang Rice Terrace (5.3 km)"
+      ],
+      "facilities": [
+        "Private Outdoor Pool",
+        "Fitness Center/Gym Access",
+        "Free High-Speed WiFi",
+        "Air Conditioning",
+        "Room Service",
+        "En-suite Bathroom with Bathtub",
+        "Private Terrace with Rice Field View",
+        "Free Private Parking"
+      ],
+      "extraServices": [
+        { "type": "Airport Shuttle (Surcharge)", "price": 300000 },
+        { "type": "Laundry Service", "price": 50000 },
+        { "type": "Massage & Wellness Treatment", "price": 350000 },
+        { "type": "Traditional Village Tour Arrangement", "price": 500000 }
+      ],
+      "cancellationPolicy": "Cancellation can be made according to the terms and conditions applicable at the time of booking."
+    },
+    "rooms": [
+      {
+        "type": "Suite with Private Pool",
+        "price": 844700
+      },
+      {
+        "type": "Deluxe Garden Suite",
+        "price": 1050000
+      },
+      {
+        "type": "Premium Paddy Field View Suite",
+        "price": 1200000
+      }
+    ]
+  },
+
+  {
+    "id": 3,
+    "name": "Da Vinci The Villa",
+    "tag": "Family Villa",
+    "rating": 4.8,
+    "location": "Tumbak Bayuh, Bali",
+    "amenities": {
+      "bed": 4,
+      "bathtub": 3,
+      "pool": true
+    },
+    "price": 4500000,
+    "image": [
+      "/VillaPhoto/Family_Villas/DaVinciTheVillaByNagisaBali/587093295.jpg",
+      "/VillaPhoto/Family_Villas/DaVinciTheVillaByNagisaBali/587092964.jpg",
+      "/VillaPhoto/Family_Villas/DaVinciTheVillaByNagisaBali/587093044.jpg",
+      "/VillaPhoto/Family_Villas/DaVinciTheVillaByNagisaBali/587093119.jpg",
+      "/VillaPhoto/Family_Villas/DaVinciTheVillaByNagisaBali/587093130.jpg",
+      "/VillaPhoto/Family_Villas/DaVinciTheVillaByNagisaBali/587093150.jpg",
+      "/VillaPhoto/Family_Villas/DaVinciTheVillaByNagisaBali/587093290.jpg",
+      "/VillaPhoto/Family_Villas/DaVinciTheVillaByNagisaBali/587093292.jpg",
+      "/VillaPhoto/Family_Villas/DaVinciTheVillaByNagisaBali/587093294.jpg",
+      "/VillaPhoto/Family_Villas/DaVinciTheVillaByNagisaBali/587093298.jpg",
+      "/VillaPhoto/Family_Villas/DaVinciTheVillaByNagisaBali/587093451.jpg",
+      "/VillaPhoto/Family_Villas/DaVinciTheVillaByNagisaBali/587093454.jpg",
+      "/VillaPhoto/Family_Villas/DaVinciTheVillaByNagisaBali/587093455.jpg",
+      "/VillaPhoto/Family_Villas/DaVinciTheVillaByNagisaBali/587093456.jpg",
+      "/VillaPhoto/Family_Villas/DaVinciTheVillaByNagisaBali/587093650.jpg",
+      "/VillaPhoto/Family_Villas/DaVinciTheVillaByNagisaBali/587124376.jpg",
+      "/VillaPhoto/Family_Villas/DaVinciTheVillaByNagisaBali/600625276.jpg",
+      "/VillaPhoto/Family_Villas/DaVinciTheVillaByNagisaBali/752104668.jpg",
+      "/VillaPhoto/Family_Villas/DaVinciTheVillaByNagisaBali/752105435.jpg"
+    ],
+    "promo": {
+      "status": "none",
+      "disc": "0%"
+    },
+    "detail": {
+      "priceRange": "IDR 4.500.000 - IDR 6.000.000",
+      "roomType": "4 Bedroom Luxury Villa",
+      "description": "Da Vinci The Villa by Nagisa Bali is a magnificent property offering ultimate privacy in the Tumbak Bayuh area. Featuring an elegant architectural design, the villa boasts a spacious semi-open living area, a modern kitchen, and lush tropical gardens overlooking a large private pool. It is ideal for large family vacations or groups seeking luxury amidst the tranquil Balinese countryside.",
+      "checkInTime": "15:00 PM - 22:00 PM",
+      "checkOutTime": "07:00 AM - 12:00 PM",
+      "address": "Tumbak Bayuh Street No. 64, Tumbak Bayuh, Mengwi District, Badung Regency, Bali 80351",
+      "nearbyPlaces": [
+        "Pererenan Beach (4.2 km)",
+        "Echo Beach (4.5 km)",
+        "Love Anchor Canggu (2.5 km)",
+        "Metis Restaurant (6.8 km)",
+        "Tanah Lot Temple (9.5 km)"
+      ],
+      "facilities": [
+        "Large Private Swimming Pool",
+        "Free High-Speed WiFi",
+        "Fully Equipped Designer Kitchen",
+        "En-suite Bathrooms with Premium Amenities",
+        "Spacious Sun Deck & Tropical Garden",
+        "Flat-screen TV with Satellite Channels",
+        "Air Conditioning",
+        "Private Garage"
+      ],
+      "extraServices": [
+        { "type": "Private Chef Service", "price": 1500000 },
+        { "type": "Daily Housekeeping", "price": 150000 },
+        { "type": "Airport Transfer (Surcharge)", "price": 300000 },
+        { "type": "In-villa Massage", "price": 350000 },
+        { "type": "Car Rental with Driver", "price": 600000 }
+      ],
+      "cancellationPolicy": "Cancellation can be made according to the terms and conditions applicable at the time of booking."
+    },
+    "rooms": [
+      {
+        "type": "Entire 4 Bedroom Villa",
+        "price": 4500000
+      },
+      {
+        "type": "Luxury Family Executive Package",
+        "price": 6000000
+      }
+    ]
+  },
+
+  {
+    "id": 4,
+    "name": "Enchanting Canggu Villa",
+    "tag": "Family Villa",
+    "rating": 4.2,
+    "location": "Canggu, Bali",
+    "amenities": {
+      "bed": 4,
+      "bathtub": 4,
+      "pool": true
+    },
+    "price": 4192799,
+    "image": [
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487195.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487162.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487164.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487175.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487176.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487178.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487180.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487182.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487184.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487189.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487190.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487191.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487192.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487193.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487194.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487195.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487196.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487197.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487198.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487199.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487200.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487201.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487202.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487203.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487204.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487207.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487215.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487218.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487219.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487220.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487221.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487222.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487223.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487224.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487225.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487226.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487228.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487229.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487230.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487231.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487234.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487236.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487237.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487239.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487240.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487241.jpg",
+      "/VillaPhoto/Family_Villas/EnchantingCangguVilla/610487242.jpg"
+    ],
+    "promo": {
+      "status": "none",
+      "disc": "0%"
+    },
+    "detail": {
+      "priceRange": "IDR 4.192.799 - IDR 5.500.000",
+      "roomType": "4 Bedroom Family Villa",
+      "description": "Discover spacious living at Enchanting Canggu Villa, complete with a private outdoor pool, garden, and BBQ area. Featuring an open-plan layout, full kitchen, and en-suite bedrooms, it is the perfect retreat for families seeking modern comfort in the heart of iconic Canggu.",
+      "checkInTime": "14:00 PM",
+      "checkOutTime": "12:00 PM",
+      "address": "Nelayan Street No. 31, Canggu, North Kuta District, Badung Regency, Bali 80361",
+      "nearbyPlaces": [
+        "Nelayan Beach (0.6 km)",
+        "Batu Bolong Beach (1.2 km)",
+        "Canggu Beach (1.3 km)",
+        "La Brisa Bali (1.8 km)",
+        "Echo Beach (2.0 km)"
+      ],
+      "facilities": [
+        "Private Outdoor Swimming Pool",
+        "Free WiFi",
+        "Air Conditioning",
+        "Flat-screen TV",
+        "Fully Equipped Kitchen",
+        "BBQ Facilities",
+        "Terrace & Tropical Garden",
+        "Free Private Parking",
+        "Safety Deposit Box"
+      ],
+      "extraServices": [
+        { "type": "Airport Shuttle (Surcharge)", "price": 300000 },
+        { "type": "Bicycle & Car Rental", "price": 250000 },
+        { "type": "Daily Housekeeping", "price": 150000 },
+        { "type": "Grocery Deliveries", "price": 50000 }
+      ],
+      "cancellationPolicy": "Cancellation can be made according to the terms and conditions applicable at the time of booking."
+    },
+    "rooms": [
+      {
+        "type": "Standard 4 Bedroom Villa",
+        "price": 4192799
+      },
+      {
+        "type": "Premium Family Package Villa",
+        "price": 5500000
+      }
+    ]
+  },
+
+  {
+    "id": 5,
+    "name": "Hidden 5BR Gem Luxe Pool",
+    "tag": "Family Villa",
+    "rating": 5.0,
+    "location": "Pererenan, Bali",
+    "amenities": {
+      "bed": 5,
+      "bathtub": 5,
+      "pool": true
+    },
+    "price": 4500000,
+    "image": [
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766525944.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766525874.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766525940.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766525950.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766525953.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766525974.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766525981.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766525985.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766525990.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766526000.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766526006.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766526009.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766526014.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766526015.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766526021.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766526023.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766526024.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766526029.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766526033.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766526038.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766526039.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766526043.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766526045.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766526049.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766526054.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766526056.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766526060.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766526066.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766526077.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766526081.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766526084.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766526089.jpg",
+      "/VillaPhoto/Family_Villas/Hidden5BRGemLuxePoolVilla/766526095.jpg"
+    ],
+    "promo": {
+      "status": "active",
+      "disc": "15%"
+    },
+    "detail": {
+      "priceRange": "IDR 4.500.000 - IDR 6.200.000",
+      "roomType": "Luxury 5 Bedroom Villa",
+      "description": "Hidden 5BR Gem Luxe Pool Villa offers an exclusive stay in Pererenan, featuring a modern minimalist design blended with tropical comfort. The property boasts a private infinity pool, an expansive open-plan living area, and a fully equipped gourmet kitchen, making it the ideal choice for family gatherings or large groups seeking privacy.",
+      "checkInTime": "15:00 PM",
+      "checkOutTime": "11:00 AM",
+      "address": "Tumbak Bayuh Street No. 64, Tumbak Bayuh, Mengwi District, Badung Regency, Bali 80351",
+      "nearbyPlaces": [
+        "Baked Pererenan (0.8 km)",
+        "Pererenan Beach (1.5 km)",
+        "Echo Beach (2.1 km)",
+        "La Brisa Bali (2.3 km)",
+        "Tanah Lot Temple (8.5 km)"
+      ],
+      "facilities": [
+        "Private Infinity Pool",
+        "High-speed WiFi",
+        "Smart TV with Netflix",
+        "Fully Equipped Gourmet Kitchen",
+        "Air Conditioning in all bedrooms",
+        "En-suite Bathrooms with Bathtub",
+        "Sun Terrace & Tropical Garden",
+        "Free Private Parking"
+      ],
+      "extraServices": [
+        { "type": "Daily Housekeeping", "price": 150000 },
+        { "type": "In-villa Private Chef", "price": 1500000 },
+        { "type": "Airport Transfer (Surcharge)", "price": 300000 },
+        { "type": "Scooter & Car Rental", "price": 150000 },
+        { "type": "Laundry Service", "price": 50000 }
+      ],
+      "cancellationPolicy": "Cancellations made at least 14 days prior to arrival are eligible for a full refund.."
+    },
+    "rooms": [
+      {
+        "type": "Entire 5 Bedroom Luxury Villa",
+        "price": 4500000
+      },
+      {
+        "type": "Premium Family Event Package",
+        "price": 6200000
+      }
+    ]
+  },
+
+  {
+    "id": 6,
+    "name": "Sojourn",
+    "tag": "Couple Villa",
+    "rating": 4.9,
+    "location": "Mengwi, Bali",
+    "amenities": {
+      "bed": 2,
+      "bathtub": 2,
+      "pool": true
+    },
+    "price": 2300000,
+    "image": [
+      "/VillaPhoto/Couple_Villas/Sojourn/642183191.jpg",
+      "/VillaPhoto/Couple_Villas/Sojourn/642183294.jpg",
+      "/VillaPhoto/Couple_Villas/Sojourn/642207282.jpg",
+      "/VillaPhoto/Couple_Villas/Sojourn/642207297.jpg",
+      "/VillaPhoto/Couple_Villas/Sojourn/642207309.jpg",
+      "/VillaPhoto/Couple_Villas/Sojourn/642216969.jpg",
+      "/VillaPhoto/Couple_Villas/Sojourn/642216978.jpg",
+      "/VillaPhoto/Couple_Villas/Sojourn/642216988.jpg",
+      "/VillaPhoto/Couple_Villas/Sojourn/642216990.jpg",
+      "/VillaPhoto/Couple_Villas/Sojourn/642217001.jpg",
+      "/VillaPhoto/Couple_Villas/Sojourn/642217025.jpg",
+      "/VillaPhoto/Couple_Villas/Sojourn/642563810.jpg",
+      "/VillaPhoto/Couple_Villas/Sojourn/757472947.jpg",
+      "/VillaPhoto/Couple_Villas/Sojourn/757472959.jpg",
+      "/VillaPhoto/Couple_Villas/Sojourn/757472978.jpg",
+      "/VillaPhoto/Couple_Villas/Sojourn/757472994.jpg",
+      "/VillaPhoto/Couple_Villas/Sojourn/757473009.jpg"
+    ],
+    "promo": {
+      "status": "none",
+      "disc": "0%"
+    },
+    "detail": {
+      "priceRange": "IDR 2.300.000 - IDR 2.800.000",
+      "roomType": "2 Bedroom Private Sanctuary",
+      "description": "Sojourn is an exclusive boutique villa in Mengwi that blends modern luxury with the tranquility of the countryside. Featuring an open-space concept with a private pool overlooking emerald rice fields and warm minimalist interiors, it offers a deeply private atmosphere for couples or small families seeking an escape from the city crowds.",
+      "checkInTime": "14:00 PM",
+      "checkOutTime": "12:00 PM",
+      "address": "Raya Duma Street, Mengwi, Mengwi District, Badung Regency, Bali 80351",
+      "nearbyPlaces": [
+        "Pura Taman Ayun (3.5 km)",
+        "Sangeh Monkey Forest (12 km)",
+        "Nungnung Waterfall (25 km)",
+        "Tanah Lot (15 km)",
+        "Canggu Area (12 km)"
+      ],
+      "facilities": [
+        "Private Pool with Rice Field View",
+        "Free High-Speed WiFi",
+        "Air Conditioning",
+        "Fully Equipped Modern Kitchen",
+        "Smart TV",
+        "Semi-Open Living Area",
+        "En-suite Bathrooms with Bathtub",
+        "Free Private Parking"
+      ],
+      "extraServices": [
+        { "type": "Floating Breakfast", "price": 250000 },
+        { "type": "Daily Housekeeping", "price": 150000 },
+        { "type": "Airport Shuttle (Surcharge)", "price": 300000 },
+        { "type": "In-villa Spa & Massage", "price": 350000 },
+        { "type": "Car Rental with Driver", "price": 600000 }
+      ],
+      "cancellationPolicy": "Cancellations made at least 7 days prior to the check-in date are eligible for a full refund."
+    },
+    "rooms": [
+      {
+        "type": "Standard 2 Bedroom Sanctuary",
+        "price": 2300000
+      },
+      {
+        "type": "Luxury Rice Field View Suite",
+        "price": 2800000
+      }
+    ]
+  },
+
+  {
+    "id": 7,
+    "name": "Villa Kiki Modern Tropical",
+    "tag": "Couple Villa",
+    "rating": 4.0,
+    "location": "Canggu, Bali",
+    "amenities": {
+      "bed": 3,
+      "bathtub": 3,
+      "pool": true
+    },
+    "price": 2800000,
+    "image": [
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793973372.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793970532.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793970807.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793971023.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793971089.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793971162.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793971304.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793971625.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793971717.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793971823.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793972043.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793972165.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793972365.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793972374.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793972466.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793972523.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793972579.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793972636.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793972651.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793972707.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793972711.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793972755.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793972769.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793972822.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793972864.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793973112.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793973167.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793973238.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793973328.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793973576.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793973625.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793973705.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793973753.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793973779.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793973795.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793973805.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793973846.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793973878.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793973915.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793973917.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793973967.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793973988.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793974133.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793974149.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793974162.jpg",
+      "/VillaPhoto/Couple_Villas/Villa Kiki-Modern Tropical3BREscapeinCanggu/793974200.jpg"
+    ],
+    "promo": {
+      "status": "none",
+      "disc": "0%"
+    },
+    "detail": {
+      "priceRange": "IDR 2.800.000 - IDR 3.200.000",
+      "roomType": "3 Bedroom Modern Tropical Villa",
+      "description": "Experience luxury at Villa Kiki Modern Tropical, your stylish sanctuary in central Canggu. This villa boasts three spacious bedrooms, a private pool, and a sleek semi-outdoor lounge. The ideal choice for couples or small groups looking for modern comfort in the heart of Bali’s most vibrant area.",
+      "checkInTime": "14:00 PM",
+      "checkOutTime": "11:00 AM",
+      "address": "Nelayan Street, Canggu, North Kuta District, Badung Regency, Bali 80361",
+      "nearbyPlaces": [
+        "Nelayan Beach (1.1 km)",
+        "Batu Bolong Beach (1.5 km)",
+        "Mason Restaurant (1.2 km)",
+        "Deus Ex Machina (1.0 km)",
+        "The Practice Yoga (0.8 km)"
+      ],
+      "facilities": [
+        "Private Swimming Pool",
+        "Free High-Speed WiFi",
+        "Air Conditioning",
+        "Fully Equipped Kitchen",
+        "En-suite Bathrooms with Bathtub",
+        "Flat-screen TV",
+        "Sun Terrace & Lounge"
+      ],
+      "extraServices": [
+        { "type": "Daily Housekeeping", "price": 150000 },
+        { "type": "Airport Transfer (Surcharge)", "price": 300000 },
+        { "type": "Laundry Service", "price": 50000 },
+        { "type": "In-villa Massage", "price": 350000 }
+      ],
+      "cancellationPolicy": "Cancellation terms may vary depending on the platform and time of booking."
+    },
+    "rooms": [
+      {
+        "type": "Standard 3 Bedroom Villa",
+        "price": 2800000
+      },
+      {
+        "type": "Premium Tropical Package",
+        "price": 3200000
+      }
+    ]
+  },
+
+  {
+    "id": 8,
+    "name": "Predmed Kabaka Resort",
+    "tag": "Family Villa",
+    "rating": 4.5,
+    "location": "Kaba-Kaba, Bali",
+    "amenities": {
+      "bed": 2,
+      "bathtub": 4,
+      "pool": true
+    },
+    "price": 2000000,
+    "image": [
+      "/VillaPhoto/Family_Villas/PredmedKabakaResort/772086206.jpg",
+      "/VillaPhoto/Family_Villas/PredmedKabakaResort/772086114.jpg",
+      "/VillaPhoto/Family_Villas/PredmedKabakaResort/772086119.jpg",
+      "/VillaPhoto/Family_Villas/PredmedKabakaResort/772086128.jpg",
+      "/VillaPhoto/Family_Villas/PredmedKabakaResort/772086139.jpg",
+      "/VillaPhoto/Family_Villas/PredmedKabakaResort/772086144.jpg",
+      "/VillaPhoto/Family_Villas/PredmedKabakaResort/772086151.jpg",
+      "/VillaPhoto/Family_Villas/PredmedKabakaResort/772086174.jpg",
+      "/VillaPhoto/Family_Villas/PredmedKabakaResort/772086191.jpg",
+      "/VillaPhoto/Family_Villas/PredmedKabakaResort/772086195.jpg",
+      "/VillaPhoto/Family_Villas/PredmedKabakaResort/772086210.jpg",
+      "/VillaPhoto/Family_Villas/PredmedKabakaResort/772086214.jpg",
+      "/VillaPhoto/Family_Villas/PredmedKabakaResort/773023501.jpg",
+      "/VillaPhoto/Family_Villas/PredmedKabakaResort/773033809.jpg",
+      "/VillaPhoto/Family_Villas/PredmedKabakaResort/773214948.jpg",
+      "/VillaPhoto/Family_Villas/PredmedKabakaResort/773372492.jpg",
+      "/VillaPhoto/Family_Villas/PredmedKabakaResort/781130666.jpg"
+    ],
+    "promo": {
+      "status": "active",
+      "disc": "20%"
+    },
+    "detail": {
+      "priceRange": "IDR 2.000.000 - IDR 2.500.000",
+      "roomType": "Resort Style 2 Bedroom Villa",
+      "description": "Predmed Kabaka Resort offers an exclusive escape in the serene village of Kaba-Kaba. The property presents a blend of modern architecture and lush Balinese tropical landscapes, complete with a spacious private pool, an open-air dining area, and soul-soothing rice field views. It is perfectly suited for families seeking an authentic rural atmosphere without compromising on modern resort amenities.",
+      "checkInTime": "14:00 PM",
+      "checkOutTime": "12:00 PM",
+      "address": "Kaba-Kaba Street, Kaba-Kaba, Kediri District, Tabanan Regency, Bali 82121",
+      "nearbyPlaces": [
+        "Nyanyi Beach (6.2 km)",
+        "Tanah Lot Temple (7.5 km)",
+        "Pererenan Beach (8.0 km)",
+        "Canggu Center (9.0 km)",
+        "Alas Kedaton Monkey Forest (10 km)"
+      ],
+      "facilities": [
+        "Private Outdoor Pool",
+        "Free WiFi Throughout",
+        "Full Kitchenette",
+        "Flat-screen TV with International Channels",
+        "En-suite Bathrooms with 4 Bathtubs",
+        "Spacious Tropical Garden",
+        "Daily Housekeeping",
+        "Free Parking Area"
+      ],
+      "extraServices": [
+        { "type": "Airport Pickup (Surcharge)", "price": 300000 },
+        { "type": "Floating Breakfast", "price": 250000 },
+        { "type": "Bike Rental", "price": 100000 },
+        { "type": "Tour Desk", "price": 500000 },
+        { "type": "In-room Massage", "price": 350000 }
+      ],
+      "cancellationPolicy": "Cancellation terms may vary depending on the platform and time of booking."
+    },
+    "rooms": [
+      {
+        "type": "2 Bedroom Villa Garden View",
+        "price": 2000000
+      },
+      {
+        "type": "2 Bedroom Villa Rice Field View",
+        "price": 2500000
+      }
+    ]
+  },
+
+  {
+    "id": 9,
+    "name": "Villa 10 Viber Canggu",
+    "tag": "Couple Villa",
+    "rating": 4.7,
+    "location": "Canggu, Bali",
+    "amenities": {
+      "bed": 1,
+      "bathtub": 1,
+      "pool": true
+    },
+    "price": 1200000,
+    "image": [
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166831.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166469.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166585.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166626.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166641.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166655.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166668.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166682.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166696.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166709.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166725.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166741.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166751.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166762.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166769.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166777.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166791.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166798.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166816.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166826.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166843.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166855.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166866.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166882.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166891.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166901.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166913.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793166927.jpg",
+      "/VillaPhoto/Couple_Villas/Villa10ViberCanggu/793167059.jpg"
+    ],
+    "promo": {
+      "status": "none",
+      "disc": "0%"
+    },
+    "detail": {
+      "priceRange": "IDR 1.200.000 - IDR 1.500.000",
+      "roomType": "Cozy 1 Bedroom Villa",
+      "description": "Villa 10 Viber Canggu is a modern oasis for couples seeking comfort and style in Bali's most trendy location. This villa highlights minimalist aesthetics with boho-chic touches, offering a tranquil bedroom area directly connected to a private pool and intimate sun deck. Its strategic location makes it easy to access various beach clubs and popular cafes in the Canggu area.",
+      "checkInTime": "14:00 PM",
+      "checkOutTime": "11:00 AM",
+      "address": "Tegal Sari Street No. 10, Canggu, North Kuta District, Badung Regency, Bali 80361",
+      "nearbyPlaces": [
+        "Obsidian Canggu (0.5 km)",
+        "Milk & Madu (1.5 km)",
+        "Berawa Beach (2.0 km)",
+        "Atlas Beach Fest (2.2 km)",
+        "Finns Beach Club (2.3 km)"
+      ],
+      "facilities": [
+        "Private Swimming Pool",
+        "Free High-Speed WiFi",
+        "Air Conditioning",
+        "Kitchenette with Refrigerator",
+        "En-suite Bathroom with Rain Shower & Bathtub",
+        "Safety Deposit Box",
+        "Sunbed & Outdoor Lounge Area"
+      ],
+      "extraServices": [
+        { "type": "Daily Housekeeping", "price": 150000 },
+        { "type": "Airport Transfer (Surcharge)", "price": 300000 },
+        { "type": "Scooter Rental", "price": 100000 },
+        { "type": "In-villa Massage", "price": 350000 },
+        { "type": "Floating Breakfast Arrangement", "price": 250000 }
+      ],
+      "cancellationPolicy": "Cancellations made at least 3 days prior to arrival are eligible for a full refund."
+    },
+    "rooms": [
+      {
+        "type": "Standard 1 Bedroom Villa",
+        "price": 1200000
+      },
+      {
+        "type": "Premium Honeymoon Package",
+        "price": 1500000
+      }
+    ]
+  },
+
+  {
+    "id": 10,
+    "name": "Villa Fleur",
+    "tag": "Couple Villa",
+    "rating": 4.8,
+    "location": "Canggu, Bali",
+    "amenities": {
+      "bed": 5,
+      "bathtub": 5,
+      "pool": true
+    },
+    "price": 1500000,
+    "image": [
+      "/VillaPhoto/Couple_Villas/VillaFleur/756196063.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756139986.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756140341.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756140359.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756140389.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756140434.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756140565.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756161593.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756169756.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756169757.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756169761.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756169765.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756187090.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756187107.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756187119.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756187134.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756187147.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756187168.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756187179.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756187198.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756187214.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756187217.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756187254.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756195842.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756195854.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756195867.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756195889.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756195910.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756195939.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756195965.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756196002.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756196023.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756196063.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756196089.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756196109.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756196142.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756196162.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756196181.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756196196.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756196216.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756196238.jpg",
+      "/VillaPhoto/Couple_Villas/VillaFleur/756196258.jpg"
+    ],
+    "promo": {
+      "status": "none",
+      "disc": "0%"
+    },
+    "detail": {
+      "priceRange": "IDR 1.500.000 - IDR 4.500.000",
+      "roomType": "5 Bedroom Boutique Villa",
+      "description": "Experience 'chic' tropical luxury at Villa Fleur, where modern aesthetics meet natural elements. This expansive yet intimate villa boasts a crystal private pool, stylish relaxation spots, and uniquely themed Instagrammable bedrooms. Perfectly situated in the premium heart of Canggu.",
+      "checkInTime": "14:00 PM",
+      "checkOutTime": "12:00 PM",
+      "address": "Nelayan Street, Canggu, North Kuta District, Badung Regency, Bali 80361",
+      "nearbyPlaces": [
+        "Milk & Madu (0.9 km)",
+        "Berawa Beach (1.2 km)",
+        "Finns Recreation Club (1.5 km)",
+        "The Practice Yoga (0.7 km)",
+        "Canggu Beach (1.0 km)"
+      ],
+      "facilities": [
+        "Large Private Swimming Pool",
+        "Free High-Speed WiFi",
+        "Full Modern Kitchen",
+        "En-suite Bathrooms with Premium Amenities",
+        "Spacious Living Area",
+        "Air Conditioning in all rooms",
+        "Sun Deck & Garden",
+        "Security Box"
+      ],
+      "extraServices": [
+        { "type": "In-villa Private Chef", "price": 1500000 },
+        { "type": "Daily Housekeeping", "price": 150000 },
+        { "type": "Airport Shuttle (Surcharge)", "price": 300000 },
+        { "type": "Massage & Spa Treatment", "price": 350000 },
+        { "type": "Laundry Service", "price": 50000 }
+      ],
+      "cancellationPolicy": "Cancellations made at least 3 days prior to arrival are eligible for a full refund."
+    },
+    "rooms": [
+      {
+        "type": "Standard Double Room",
+        "price": 1500000
+      },
+      {
+        "type": "Deluxe Room with Pool Access",
+        "price": 2200000
+      },
+      {
+        "type": "Entire 5 Bedroom Villa",
+        "price": 4500000
+      }
+    ]
+  },
+
+  {
+    "id": 11,
+    "name": "Riyuri Guesthouse",
+    "tag": "Family Villa",
+    "rating": 4.7,
+    "location": "Canggu, Bali",
+    "amenities": {
+      "bed": 5,
+      "bathtub": 5,
+      "pool": true
+    },
+    "price": 1000000,
+    "image": [
+      "/VillaPhoto/Family_Villas/RIYURIGUESTHOUSE/536715580.jpg",
+      "/VillaPhoto/Family_Villas/RIYURIGUESTHOUSE/536712869.jpg",
+      "/VillaPhoto/Family_Villas/RIYURIGUESTHOUSE/536712926.jpg",
+      "/VillaPhoto/Family_Villas/RIYURIGUESTHOUSE/536712930.jpg",
+      "/VillaPhoto/Family_Villas/RIYURIGUESTHOUSE/536712933.jpg",
+      "/VillaPhoto/Family_Villas/RIYURIGUESTHOUSE/536712934.jpg",
+      "/VillaPhoto/Family_Villas/RIYURIGUESTHOUSE/536712938.jpg",
+      "/VillaPhoto/Family_Villas/RIYURIGUESTHOUSE/536712939.jpg",
+      "/VillaPhoto/Family_Villas/RIYURIGUESTHOUSE/536712940.jpg",
+      "/VillaPhoto/Family_Villas/RIYURIGUESTHOUSE/536712942.jpg",
+      "/VillaPhoto/Family_Villas/RIYURIGUESTHOUSE/536712943.jpg",
+      "/VillaPhoto/Family_Villas/RIYURIGUESTHOUSE/536712944.jpg",
+      "/VillaPhoto/Family_Villas/RIYURIGUESTHOUSE/536712953.jpg",
+      "/VillaPhoto/Family_Villas/RIYURIGUESTHOUSE/536712960.jpg",
+      "/VillaPhoto/Family_Villas/RIYURIGUESTHOUSE/536712985.jpg",
+      "/VillaPhoto/Family_Villas/RIYURIGUESTHOUSE/536712990.jpg",
+      "/VillaPhoto/Family_Villas/RIYURIGUESTHOUSE/536712991.jpg",
+      "/VillaPhoto/Family_Villas/RIYURIGUESTHOUSE/536712992.jpg",
+      "/VillaPhoto/Family_Villas/RIYURIGUESTHOUSE/536712993.jpg",
+      "/VillaPhoto/Family_Villas/RIYURIGUESTHOUSE/536712994.jpg",
+      "/VillaPhoto/Family_Villas/RIYURIGUESTHOUSE/536713585.jpg",
+      "/VillaPhoto/Family_Villas/RIYURIGUESTHOUSE/536713595.jpg",
+      "/VillaPhoto/Family_Villas/RIYURIGUESTHOUSE/536713596.jpg",
+      "/VillaPhoto/Family_Villas/RIYURIGUESTHOUSE/536716624.jpg"
+    ],
+    "promo": {
+      "status": "active",
+      "disc": "20%"
+    },
+    "detail": {
+      "priceRange": "IDR 800.000 - IDR 1.200.000",
+      "roomType": "Multi-room Guesthouse",
+      "description": "Riyuri Guesthouse provides comfortable and affordable accommodation in the strategic area of Berawa, Canggu. It is perfectly suited for families or groups wanting easy access to popular beach clubs and cafes without sacrificing tranquility. The guesthouse features clean rooms, a fully equipped shared kitchen, and an outdoor pool for relaxing under the Balinese sun.",
+      "checkInTime": "14:00 PM",
+      "checkOutTime": "12:00 PM",
+      "address": "Subak Sari Street No. 12, Tibubeneng, North Kuta District, Badung Regency, Bali 80361",
+      "nearbyPlaces": [
+        "Canggu Deli (0.3 km)",
+        "Finns Recreation Club (0.6 km)",
+        "Berawa Beach (1.1 km)",
+        "Atlas Beach Fest (0.9 km)",
+        "Nude Cafe (0.5 km)"
+      ],
+      "facilities": [
+        "Shared Outdoor Swimming Pool",
+        "Free WiFi",
+        "Air Conditioning",
+        "Flat-screen TV",
+        "Shared Kitchen",
+        "Daily Housekeeping",
+        "Free Parking Area",
+        "Terrace/Balcony"
+      ],
+      "extraServices": [
+        { "type": "Scooter Rental", "price": 100000 },
+        { "type": "Laundry Service", "price": 50000 },
+        { "type": "Airport Transfer (Surcharge)", "price": 300000 },
+        { "type": "Tour Arrangement", "price": 500000 }
+      ],
+      "cancellationPolicy": "Cancellations made at least 3 days prior to arrival are eligible for a full refund."
+    },
+    "rooms": [
+      {
+        "type": "Standard Double Room",
+        "price": 350000
+      },
+      {
+        "type": "Superior Family Room",
+        "price": 650000
+      },
+      {
+        "type": "Entire House (5 Bedrooms)",
+        "price": 1000000
+      }
+    ]
+  },
+
+  {
+    "id": 12,
+    "name": "Villa Auri Pererenan",
+    "tag": "Family Villa",
+    "rating": 4.7,
+    "location": "Tumbak Bayuh, Bali",
+    "amenities": {
+      "bed": 2,
+      "bathtub": 2,
+      "pool": true
+    },
+    "price": 1400000,
+    "image": [
+      "/VillaPhoto/Family_Villas/VillaAuriPererenan/763175078.jpg",
+      "/VillaPhoto/Family_Villas/VillaAuriPererenan/763175136.jpg",
+      "/VillaPhoto/Family_Villas/VillaAuriPererenan/763175141.jpg",
+      "/VillaPhoto/Family_Villas/VillaAuriPererenan/763175146.jpg",
+      "/VillaPhoto/Family_Villas/VillaAuriPererenan/763175156.jpg",
+      "/VillaPhoto/Family_Villas/VillaAuriPererenan/763175159.jpg",
+      "/VillaPhoto/Family_Villas/VillaAuriPererenan/763175170.jpg",
+      "/VillaPhoto/Family_Villas/VillaAuriPererenan/763175175.jpg",
+      "/VillaPhoto/Family_Villas/VillaAuriPererenan/763175186.jpg",
+      "/VillaPhoto/Family_Villas/VillaAuriPererenan/763175191.jpg",
+      "/VillaPhoto/Family_Villas/VillaAuriPererenan/763175193.jpg",
+      "/VillaPhoto/Family_Villas/VillaAuriPererenan/763175196.jpg",
+      "/VillaPhoto/Family_Villas/VillaAuriPererenan/763175200.jpg",
+      "/VillaPhoto/Family_Villas/VillaAuriPererenan/763175207.jpg",
+      "/VillaPhoto/Family_Villas/VillaAuriPererenan/763175210.jpg",
+      "/VillaPhoto/Family_Villas/VillaAuriPererenan/763175214.jpg",
+      "/VillaPhoto/Family_Villas/VillaAuriPererenan/763175220.jpg",
+      "/VillaPhoto/Family_Villas/VillaAuriPererenan/763175224.jpg",
+      "/VillaPhoto/Family_Villas/VillaAuriPererenan/763175229.jpg"
+    ],
+    "promo": {
+      "status": "none",
+      "disc": "0%"
+    },
+    "detail": {
+      "priceRange": "IDR 1.400.000 - IDR 1.800.000",
+      "roomType": "2 Bedroom Villa in Pererenan",
+      "description": "Villa Auri Pererenan offers a lush, modern living experience in the serene area of Tumbak Bayuh. Designed with a tropical minimalist style, the villa features a crystal-clear private pool and a semi-open living area that provides fresh natural air circulation, making it an ideal choice for family relaxation on the outskirts of Canggu.",
+      "checkInTime": "14:00 PM - 20:00 PM",
+      "checkOutTime": "07:00 AM - 12:00 PM",
+      "address": "Tumbak Bayuh Street No. 18, Tumbak Bayuh, Mengwi District, Badung Regency, Bali 80351",
+      "nearbyPlaces": [
+        "Pererenan Beach (2.7 km)",
+        "Tanah Lot Temple (8.0 km)",
+        "Baked Pererenan (2.3 km)",
+        "Echo Beach (3.5 km)",
+        "Pepito Market Pererenan (1.8 km)"
+      ],
+      "facilities": [
+        "Private Swimming Pool",
+        "Free High-Speed WiFi",
+        "Air Conditioning",
+        "Fully Functional Kitchen",
+        "Flat-screen TV",
+        "En-suite Bathrooms",
+        "Terrace & Garden Area",
+        "Private Parking"
+      ],
+      "extraServices": [
+        { "type": "Airport Transfer (Surcharge)", "price": 300000 },
+        { "type": "Scooter Rental", "price": 100000 },
+        { "type": "Daily Housekeeping", "price": 150000 },
+        { "type": "Laundry Service", "price": 50000 }
+      ],
+      "cancellationPolicy": "Cancellations made at least 3 days prior to arrival are eligible for a full refund."
+    },
+    "rooms": [
+      {
+        "type": "Standard 2 Bedroom Villa",
+        "price": 1400000
+      },
+      {
+        "type": "Deluxe 2 Bedroom Villa with Garden View",
+        "price": 1800000
+      }
+    ]
+  },
+
+  {
+    "id": 13,
+    "name": "Villa Salamanca",
+    "tag": "Family Villa",
+    "rating": 4.5,
+    "location": "Tumbak Bayuh, Bali",
+    "amenities": {
+      "bed": 3,
+      "bathtub": 3,
+      "pool": true
+    },
+    "price": 3200000,
+    "image": [
+      "/VillaPhoto/Family_Villas/VillaSalamancaPererenanbyBlacksand/651401595.jpg",
+      "/VillaPhoto/Family_Villas/VillaSalamancaPererenanbyBlacksand/650945232.jpg",
+      "/VillaPhoto/Family_Villas/VillaSalamancaPererenanbyBlacksand/651401481.jpg",
+      "/VillaPhoto/Family_Villas/VillaSalamancaPererenanbyBlacksand/651401499.jpg",
+      "/VillaPhoto/Family_Villas/VillaSalamancaPererenanbyBlacksand/651401505.jpg",
+      "/VillaPhoto/Family_Villas/VillaSalamancaPererenanbyBlacksand/651401507.jpg",
+      "/VillaPhoto/Family_Villas/VillaSalamancaPererenanbyBlacksand/651401529.jpg",
+      "/VillaPhoto/Family_Villas/VillaSalamancaPererenanbyBlacksand/651401545.jpg",
+      "/VillaPhoto/Family_Villas/VillaSalamancaPererenanbyBlacksand/651401561.jpg",
+      "/VillaPhoto/Family_Villas/VillaSalamancaPererenanbyBlacksand/651401565.jpg",
+      "/VillaPhoto/Family_Villas/VillaSalamancaPererenanbyBlacksand/651401567.jpg",
+      "/VillaPhoto/Family_Villas/VillaSalamancaPererenanbyBlacksand/651401569.jpg",
+      "/VillaPhoto/Family_Villas/VillaSalamancaPererenanbyBlacksand/651401578.jpg",
+      "/VillaPhoto/Family_Villas/VillaSalamancaPererenanbyBlacksand/651401582.jpg",
+      "/VillaPhoto/Family_Villas/VillaSalamancaPererenanbyBlacksand/651401583.jpg",
+      "/VillaPhoto/Family_Villas/VillaSalamancaPererenanbyBlacksand/651401593.jpg",
+      "/VillaPhoto/Family_Villas/VillaSalamancaPererenanbyBlacksand/702915630.jpg",
+      "/VillaPhoto/Family_Villas/VillaSalamancaPererenanbyBlacksand/702915644.jpg",
+      "/VillaPhoto/Family_Villas/VillaSalamancaPererenanbyBlacksand/702915771.jpg"
+    ],
+    "promo": {
+      "status": "none",
+      "disc": "0%"
+    },
+    "detail": {
+      "priceRange": "IDR 3.200.000 - IDR 4.000.000",
+      "roomType": "Elegant 3 Bedroom Villa",
+      "description": "Discover Villa Salamanca by Blacksand, where Balinese heritage meets modern luxury. Located in peaceful Tumbak Bayuh, it features a secluded private pool, lush tropical gardens, and sophisticated wooden interiors. A true home away from home for families seeking a serene Balinese retreat.",
+      "checkInTime": "14:00 PM",
+      "checkOutTime": "12:00 PM",
+      "address": "Tumbak Bayuh Street, Tumbak Bayuh, Mengwi District, Badung Regency, Bali 80351",
+      "nearbyPlaces": [
+        "Black Sand Brewery (5.2 km)",
+        "Batu Bolong Beach (6.8 km)",
+        "Pererenan Beach (4.5 km)",
+        "Pepito Market Pererenan (3.0 km)",
+        "Tanah Lot (9.5 km)"
+      ],
+      "facilities": [
+        "Private Swimming Pool",
+        "Free High-Speed WiFi",
+        "Air Conditioning",
+        "Fully Equipped Kitchen",
+        "En-suite Bathrooms with Bathtub",
+        "Outdoor Lounge Area",
+        "Cable TV",
+        "Daily Housekeeping"
+      ],
+      "extraServices": [
+        { "type": "Airport Transfer (Surcharge)", "price": 300000 },
+        { "type": "Private Chef Service", "price": 1500000 },
+        { "type": "Scooter & Car Rental", "price": 250000 },
+        { "type": "In-villa Massage", "price": 350000 },
+        { "type": "Laundry Service", "price": 50000 }
+      ],
+      "cancellationPolicy": "Cancellations made at least 3 days prior to arrival are eligible for a full refund."
+    },
+    "rooms": [
+      {
+        "type": "Entire 3 Bedroom Villa",
+        "price": 3200000
+      },
+      {
+        "type": "Luxury Family Suite (Whole Villa)",
+        "price": 4000000
+      }
+    ]
+  },
+
+  {
+    "id": 14,
+    "name": "Villa Rosado",
+    "tag": "Couple Villa",
+    "rating": 4.8,
+    "location": "Canggu, Bali",
+    "amenities": {
+      "bed": 2,
+      "bathtub": 2,
+      "pool": true
+    },
+    "price": 1800000,
+    "image": [
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323311.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323187.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323233.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323269.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323286.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323332.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323352.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323415.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323427.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323430.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323465.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323471.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323482.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323485.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323500.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323504.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323507.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323511.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323514.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323516.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323518.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323521.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323523.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323529.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554323530.jpg",
+      "/VillaPhoto/Couple_Villas/VillaRosadoCanggu/554700538.jpg"
+    ],
+    "promo": {
+      "status": "none",
+      "disc": "0%"
+    },
+    "detail": {
+      "priceRange": "IDR 1.800.000 - IDR 3.500.000",
+      "roomType": "Boutique 2 Bedroom Villa",
+      "description": "Villa Rosado is a hidden tropical oasis offering the perfect combination of modern design and warm comfort. Strategically located in Canggu, this villa features lush garden areas with a crystal-clear private pool, an elegant semi-open living room, and soothing bedroom interiors, making it a favorite choice for couples and travelers seeking tranquility amidst the bustle of Bali.",
+      "checkInTime": "14:00 PM - 20:00 PM",
+      "checkOutTime": "11:00 AM",
+      "address": "Nelayan Street, Canggu, North Kuta District, Badung Regency, Bali 80361",
+      "nearbyPlaces": [
+        "Echo Beach (1.0 km)",
+        "Petitenget Temple (8.3 km)",
+        "Batu Bolong Beach (1.2 km)",
+        "The Practice Yoga (0.8 km)",
+        "La Brisa Bali (1.1 km)"
+      ],
+      "facilities": [
+        "Private Swimming Pool",
+        "Tropical Lush Garden",
+        "Free High-speed WiFi",
+        "Air Conditioning",
+        "Fully Equipped Kitchen",
+        "En-suite Bathrooms with Bathtub",
+        "Safety Deposit Box",
+        "Flat-screen TV with Cable"
+      ],
+      "extraServices": [
+        { "type": "Daily Housekeeping", "price": 150000 },
+        { "type": "Airport Pickup Arrangement", "price": 300000 },
+        { "type": "In-villa Spa & Massage", "price": 350000 },
+        { "type": "Car/Scooter Rental", "price": 250000 },
+        { "type": "Laundry & Dry Cleaning", "price": 75000 }
+      ],
+      "cancellationPolicy": "Cancellations made at least 3 days prior to arrival are eligible for a full refund."
+    },
+    "rooms": [
+      {
+        "type": "Standard 2 Bedroom Villa",
+        "price": 1800000
+      },
+      {
+        "type": "Luxury 2 Bedroom Villa (Pool Side)",
+        "price": 2800000
+      },
+      {
+        "type": "Premium Entire Villa Experience",
+        "price": 3500000
+      }
+    ]
+  },
+
+  {
+    "id": 15,
+    "name": "Villa Sista",
+    "tag": "Couple Villa",
+    "rating": 5.0,
+    "location": "Tumbak Bayuh, Bali",
+    "amenities": {
+      "bed": 3,
+      "bathtub": 3,
+      "pool": true
+    },
+    "price": 4500000,
+    "image": [
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965190.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555964957.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965102.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965111.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965121.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965133.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965147.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965162.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965172.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965210.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965221.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965233.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965257.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965270.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965287.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965303.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965321.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965334.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965354.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965383.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965422.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965435.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965465.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965481.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965496.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965509.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/555965531.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/685607892.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/685609607.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/685609856.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/685610057.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/685610799.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/685611426.jpg",
+      "/VillaPhoto/Couple_Villas/VILLASISTA/685612528.jpg"
+    ],
+    "promo": {
+      "status": "none",
+      "disc": "0%"
+    },
+    "detail": {
+      "priceRange": "IDR 4.500.000 - IDR 5.000.000",
+      "roomType": "3 Bedroom Luxury Private Villa",
+      "description": "Villa Sista is a representation of modern luxury amidst the lush landscapes of Tumbak Bayuh. Offering absolute privacy, this villa features floor-to-ceiling windows that overlook the tropical gardens and an infinity pool. With sophisticated contemporary interiors and a serene atmosphere, it is a premier destination for those seeking premium tranquility on the outskirts of Canggu.",
+      "checkInTime": "14:00 PM",
+      "checkOutTime": "11:00 AM",
+      "address": "Tumbak Bayuh Street, Mengwi District, Badung Regency, Bali 80351",
+      "nearbyPlaces": [
+        "Munggu Beach (2.5 km)",
+        "Pererenan Area (3.0 km)",
+        "Pepito Market (1.8 km)",
+        "Tanah Lot (8.5 km)",
+        "Echo Beach (4.2 km)"
+      ],
+      "facilities": [
+        "Private Infinity Pool",
+        "High-speed WiFi",
+        "Fully Equipped Designer Kitchen",
+        "Luxury En-suite Bathrooms",
+        "Spacious Sun Deck",
+        "Smart TV with Sound System",
+        "Air Conditioning",
+        "Enclosed Living Area",
+        "Private Garage"
+      ],
+      "extraServices": [
+        { "type": "Daily Housekeeping", "price": 150000 },
+        { "type": "In-villa Private Chef", "price": 1500000 },
+        { "type": "Airport Transfer", "price": 300000 },
+        { "type": "Laundry Service", "price": 50000 },
+        { "type": "Car Rental with Driver", "price": 600000 }
+      ],
+      "cancellationPolicy": "Cancellations made at least 3 days prior to arrival are eligible for a full refund."
+    },
+    "rooms": [
+      {
+        "type": "Entire 3 Bedroom Luxury Villa",
+        "price": 4500000
+      },
+      {
+        "type": "Executive Suite Experience",
+        "price": 5000000
+      }
+    ]
+  },
+
+  {
+    "id": 16,
+    "name": "Tiara Villa Ubud",
+    "tag": "Couple Villa",
+    "rating": 4.7,
+    "location": "Tampaksiring, Bali",
+    "amenities": {
+      "bed": 2,
+      "bathtub": 1,
+      "pool": true
+    },
+    "price": 900000,
+    "image": [
+      "/VillaPhoto/Couple_Villas/Tiara Villa Ubud/693861494.jpg",
+      "/VillaPhoto/Couple_Villas/Tiara Villa Ubud/693861294.jpg",
+      "/VillaPhoto/Couple_Villas/Tiara Villa Ubud/693861307.jpg",
+      "/VillaPhoto/Couple_Villas/Tiara Villa Ubud/693861314.jpg",
+      "/VillaPhoto/Couple_Villas/Tiara Villa Ubud/693861339.jpg",
+      "/VillaPhoto/Couple_Villas/Tiara Villa Ubud/693861371.jpg",
+      "/VillaPhoto/Couple_Villas/Tiara Villa Ubud/693861398.jpg",
+      "/VillaPhoto/Couple_Villas/Tiara Villa Ubud/693861443.jpg",
+      "/VillaPhoto/Couple_Villas/Tiara Villa Ubud/693861464.jpg"
+    ],
+    "promo": {
+      "status": "none",
+      "disc": "0%"
+    },
+    "detail": {
+      "priceRange": "IDR 900.000 - IDR 1.500.000",
+      "roomType": "2 Bedroom Luxury Private Villa",
+      "description": "Tiara Villa Ubud is a representation of modern luxury amidst the lush landscapes of Tampaksiring. Offering absolute privacy, this villa features floor-to-ceiling windows overlooking the tropical gardens and an infinity pool. With sophisticated contemporary interiors and a serene atmosphere, it is a premier destination for those seeking premium tranquility on the outskirts of Ubud.",
+      "checkInTime": "13:00 PM",
+      "checkOutTime": "11:00 AM",
+      "address": "Raya Uma Kelod Street, Sebatu, Tegallalang District, Gianyar Regency, Bali 80571",
+      "nearbyPlaces": [
+        "Campuhan Ridge Walk (1.2 km)",
+        "Ubud Palace (1.5 km)",
+        "Ubud Art Market (1.6 km)",
+        "Monkey Forest Ubud (2.8 km)",
+        "Tegalalang Rice Terrace (8.5 km)"
+      ],
+      "facilities": [
+        "Private Pool",
+        "Kitchenette",
+        "Living Area",
+        "En-suite Bathroom",
+        "Air Conditioning",
+        "Free Wi-Fi",
+        "Flat-screen TV",
+        "Daily Housekeeping",
+        "Parking Area",
+        "Floating Breakfast"
+      ],
+      "extraServices": [
+        { "type": "Airport Shuttle", "price": 300000 },
+        { "type": "Massage and Spa Treatment", "price": 350000 },
+        { "type": "Tour and Excursion Services", "price": 500000 },
+        { "type": "Laundry and Dry Cleaning", "price": 75000 },
+        { "type": "Scooter and Car Rental", "price": 250000 },
+        { "type": "Romantic Flower Decoration", "price": 500000 }
+      ],
+      "cancellationPolicy": "Cancellations made at least 3 days prior to arrival are eligible for a full refund."
+    },
+    "rooms": [
+      {
+        "type": "Superior Room without Pool",
+        "price": 900000
+      },
+      {
+        "type": "Superior Room With Private Pool",
+        "price": 1500000
+      }
+    ]
+  },
+
+  {
+    "id": 17,
+    "name": "KAPI Sebatu Villa",
+    "tag": "Family Villa",
+    "rating": 4.9,
+    "location": "Sebatu, Bali",
+    "amenities": {
+      "bed": 2,
+      "bathtub": 1,
+      "pool": true
+    },
+    "price": 1180000,
+    "image": [
+      "/VillaPhoto/Family_Villas/KAPI Sebatu Villa/765176404.jpg",
+      "/VillaPhoto/Family_Villas/KAPI Sebatu Villa/765176277.jpg",
+      "/VillaPhoto/Family_Villas/KAPI Sebatu Villa/765176284.jpg",
+      "/VillaPhoto/Family_Villas/KAPI Sebatu Villa/765176376.jpg",
+      "/VillaPhoto/Family_Villas/KAPI Sebatu Villa/765176404.jpg",
+      "/VillaPhoto/Family_Villas/KAPI Sebatu Villa/765376104.jpg",
+      "/VillaPhoto/Family_Villas/KAPI Sebatu Villa/765378559 - Copy.jpg",
+      "/VillaPhoto/Family_Villas/KAPI Sebatu Villa/765389299.jpg",
+      "/VillaPhoto/Family_Villas/KAPI Sebatu Villa/765389829.jpg",
+      "/VillaPhoto/Family_Villas/KAPI Sebatu Villa/771418276.jpg",
+      "/VillaPhoto/Family_Villas/KAPI Sebatu Villa/771418341.jpg"
+    ],
+    "promo": {
+      "status": "none",
+      "disc": "0%"
+    },
+    "detail": {
+      "priceRange": "IDR 1.180.000 - IDR 2.060.000",
+      "roomType": "1-2 Bedroom Luxury Private Family Villa",
+      "description": "KAPI Sebatu Villa is an exclusive accommodation offering a serene stay amidst the lush nature of Ubud. This villa is perfectly suited for those seeking privacy and a profound connection with Bali's natural beauty.",
+      "checkInTime": "14:00 PM",
+      "checkOutTime": "12:00 PM",
+      "address": "Sebatu, Tegallalang District, Gianyar Regency, Bali 80561.",
+      "nearbyPlaces": [
+        "Pura Gunung Kawi Sebatu (1.5 km)",
+        "Pesiraman Dalem Pingit Sebatu (1.8 km)",
+        "Pura Tirta Empul (4.5 km)",
+        "Sawah Terasering Tegallalang (5.5 km)",
+        "Candi Gunung Kawi Tampaksiring (5.8 km)",
+        "Kubu Bali Experience / Sari Timbul (6.2 km)"
+      ],
+      "facilities": [
+        "Private Infinity Pool",
+        "Floating Breakfast",
+        "Balcony/Terrace",
+        "En-suite Bathroom",
+        "Air Conditioning",
+        "Flat Screen TV",
+        "High-speed Wi-Fi",
+        "Mini Bar & Tea/Coffee Maker",
+        "Safety Deposit Box",
+        "Room Service",
+        "Free Parking"
+      ],
+      "extraServices": [
+        { "type": "Airport Shuttle Service", "price": 300000 },
+        { "type": "Floating Breakfast", "price": 250000 },
+        { "type": "Romantic Candlelight Dinner", "price": 1500000 },
+        { "type": "In-villa Spa & Massage", "price": 350000 },
+        { "type": "Flower Decoration Setup", "price": 500000 },
+        { "type": "Car or Scooter Rental", "price": 250000 },
+        { "type": "Day Tour & Trekking Arrangements", "price": 600000 },
+        { "type": "Laundry Service", "price": 50000 },
+        { "type": "Afternoon Tea", "price": 150000 },
+        { "type": "Cooking Class", "price": 450000 }
+      ],
+      "cancellationPolicy": "The cancellation policy at KAPI Sebatu Villa is non-refundable or follows the specific terms of the booking platform used, including full charges for late cancellations within 48 hours or no-shows without prior notice."
+    },
+    "rooms": [
+      {
+        "type": "1-Bedroom Villa",
+        "price": 1180000
+      },
+      {
+        "type": "2-Bedroom Villa",
+        "price": 2060000
+      }
+    ]
+  },
+
+  {
+    "id": 18,
+    "name": "Villa Dolce Farniente",
+    "tag": "Family Villa",
+    "rating": 4.7,
+    "location": "Tegalalang, Bali",
+    "amenities": {
+      "bed": 3,
+      "bathtub": 2,
+      "pool": true
+    },
+    "price": 3000000,
+    "image": [
+      "/VillaPhoto/Family_Villas/Villa Dolce Farniente/591458565.jpg",
+      "/VillaPhoto/Family_Villas/Villa Dolce Farniente/591458564.jpg",
+      "/VillaPhoto/Family_Villas/Villa Dolce Farniente/591458572.jpg",
+      "/VillaPhoto/Family_Villas/Villa Dolce Farniente/591460213.jpg",
+      "/VillaPhoto/Family_Villas/Villa Dolce Farniente/591460937.jpg",
+      "/VillaPhoto/Family_Villas/Villa Dolce Farniente/591463930.jpg",
+      "/VillaPhoto/Family_Villas/Villa Dolce Farniente/591463991.jpg",
+      "/VillaPhoto/Family_Villas/Villa Dolce Farniente/591464020.jpg",
+      "/VillaPhoto/Family_Villas/Villa Dolce Farniente/591465584.jpg",
+      "/VillaPhoto/Family_Villas/Villa Dolce Farniente/638242446.jpg"
+    ],
+    "promo": {
+      "status": "none",
+      "disc": "0%"
+    },
+    "detail": {
+      "priceRange": "IDR 3.000.000 - IDR 4.000.000",
+      "roomType": "2-3 Bedroom Luxury Private Family Villa",
+      "description": "Villa Dolce Farniente is a luxury accommodation located in the peaceful Tegallalang area of Bali, specifically designed to offer a maximum relaxation experience amidst tropical nature, making it a hidden retreat offering total privacy and a peaceful atmosphere for those seeking spiritual tranquility.",
+      "checkInTime": "14:00 PM",
+      "checkOutTime": "12:00 PM",
+      "address": "Pupuan, Tegallalang District, Gianyar Regency, Bali.",
+      "nearbyPlaces": [
+        "Alas Harum Bali (3.2 km)",
+        "Cretya Ubud (3.4 km)",
+        "Pura Mengening (4.8 km)",
+        "Satria Coffee Plantation (5.1 km)",
+        "Bali Pulina (5.4 km)",
+        "Istana Kepresidenan Tampaksiring (5.9 km)",
+        "Suwat Waterfall (8.5 km)"
+      ],
+      "facilities": [
+        "Private Infinity Pool",
+        "High-Speed Wi-Fi Access",
+        "Fully Equipped Kitchenette",
+        "Semi-Outdoor Bathroom",
+        "Individually Controlled AC",
+        "Floating Breakfast Service",
+        "Secure Private Parking Area",
+        "Smart TV with International Channels"
+      ],
+      "extraServices": [
+        { "type": "Airport Shuttle Service", "price": 300000 },
+        { "type": "Floating Breakfast", "price": 250000 },
+        { "type": "Romantic Candlelight Dinner", "price": 1500000 },
+        { "type": "In-villa Spa & Massage", "price": 350000 },
+        { "type": "Flower Decoration Setup", "price": 500000 },
+        { "type": "Car or Scooter Rental", "price": 250000 },
+        { "type": "Day Tour & Trekking Arrangements", "price": 600000 },
+        { "type": "Laundry Service", "price": 50000 },
+        { "type": "Afternoon Tea", "price": 150000 },
+        { "type": "Cooking Class", "price": 450000 }
+      ],
+      "cancellationPolicy": "The cancellation policy at Villa Dolce Farniente is non-refundable (cannot be refunded) or follows the specific terms of the booking platform used, including full charges for late cancellations within 48 hours or no-shows without prior notice."
+    },
+    "rooms": [
+      {
+        "type": "2-Bedroom Villa",
+        "price": 3000000
+      },
+      {
+        "type": "3-Bedroom Villa",
+        "price": 4000000
+      }
+    ]
+  },
+
+  {
+    "id": 19,
+    "name": "Eco Six Bali",
+    "tag": "Couple Villa",
+    "rating": 4.5,
+    "location": "Tampaksiring, Bali",
+    "amenities": {
+      "bed": 1,
+      "bathtub": 1,
+      "pool": true
+    },
+    "price": 4250000,
+    "image": [
+      "/VillaPhoto/Couple_Villas/Eco Six Bali/773970567.jpg",
+      "/VillaPhoto/Couple_Villas/Eco Six Bali/774242146.jpg",
+      "/VillaPhoto/Couple_Villas/Eco Six Bali/773970567.jpg",
+      "/VillaPhoto/Couple_Villas/Eco Six Bali/774242141.jpg",
+      "/VillaPhoto/Couple_Villas/Eco Six Bali/773933710.jpg",
+      "/VillaPhoto/Couple_Villas/Eco Six Bali/774002096.jpg",
+      "/VillaPhoto/Couple_Villas/Eco Six Bali/773933676.jpg",
+      "/VillaPhoto/Couple_Villas/Eco Six Bali/773970275.jpg",
+      "/VillaPhoto/Couple_Villas/Eco Six Bali/774005731.jpg",
+      "/VillaPhoto/Couple_Villas/Eco Six Bali/774241930.jpg",
+      "/VillaPhoto/Couple_Villas/Eco Six Bali/773933498.jpg",
+      "/VillaPhoto/Couple_Villas/Eco Six Bali/774002489.jpg",
+      "/VillaPhoto/Couple_Villas/Eco Six Bali/774243533.jpg",
+      "/VillaPhoto/Couple_Villas/Eco Six Bali/773970623.jpg",
+      "/VillaPhoto/Couple_Villas/Eco Six Bali/774243538.jpg"
+    ],
+    "promo": {
+      "status": "none",
+      "disc": "0%"
+    },
+    "detail": {
+      "priceRange": "IDR 4.250.000 - IDR 5.500.000",
+      "roomType": "1-2 Bedroom Luxury Private Couple Villa",
+      "description": "Eco Six Bali is a luxurious bamboo resort that offers a unique stay experience in the serene Tampaksiring countryside. This resort combines modern bamboo architecture with traditional Balinese ambiance, creating a peaceful and highly Instagrammable atmosphere.",
+      "checkInTime": "14:00 PM",
+      "checkOutTime": "12:00 PM",
+      "address": "Jl. Raya Ayodya, Tampaksiring, Tampaksiring District, Gianyar Regency, Bali 80552.",
+      "nearbyPlaces": [
+        "Pura Tirta Empul (1.3 km)",
+        "Gunung Kawi Tampaksiring (1.6 km)",
+        "Istana Kepresidenan Tampaksiring (2.1 km)",
+        "Pura Gunung Kawi Sebatu (4.5 km)",
+        "Tegallalang Rice Terrace (5.8 km)",
+        "Alas Harum Bali (6.2 km)"
+      ],
+      "facilities": [
+        "Private Infinity Pool",
+        "Rooftop Round Pool",
+        "Floating Breakfast",
+        "Smart Projector with Netflix",
+        "Nespresso Machine",
+        "Private Minibar",
+        "Semi-Open Bathroom",
+        "Luxury Bathtub",
+        "High-Speed Wi-Fi",
+        "Air Conditioning",
+        "Boho-Style Hammock",
+        "Digital Concierge Service"
+      ],
+      "extraServices": [
+        { "type": "Floating Breakfast", "price": 250000 },
+        { "type": "Flower Bath Decoration", "price": 400000 },
+        { "type": "Romantic Candlelight Dinner", "price": 1500000 },
+        { "type": "In-Villa Massage & Spa", "price": 350000 },
+        { "type": "Airport Transfer Service", "price": 300000 },
+        { "type": "Scooter & Car Rental", "price": 250000 },
+        { "type": "Guided Day Tours", "price": 600000 },
+        { "type": "Afternoon Tea Service", "price": 150000 },
+        { "type": "Laundry Service", "price": 50000 },
+        { "type": "Birthday or Anniversary Decor", "price": 500000 }
+      ],
+      "cancellationPolicy": "The cancellation policy at Eco Six Bali is generally non-refundable (cannot be refunded), especially for bookings made through the official website or promotional prices. However, on certain platforms, free cancellation or schedule changes are sometimes possible if requested 14 to 30 days before the check-in date. Guests are strongly advised to review booking details or contact staff via WhatsApp for specific policies regarding itinerary changes."
+    },
+    "rooms": [
+      {
+        "type": "1-Bedroom Villa",
+        "price": 4250000
+      },
+      {
+        "type": "2-Bedroom Villa",
+        "price": 5500000
+      }
+    ]
+  },
+
+  {
+    "id": 20,
+    "name": "Royal Kemala Villa",
+    "tag": "Couple Villa",
+    "rating": 4.8,
+    "location": "Tegalalang, Bali",
+    "amenities": {
+      "bed": 1,
+      "bathtub": 1,
+      "pool": true
+    },
+    "price": 1300000,
+    "image": [
+      "/VillaPhoto/Couple_Villas/Royal Kemala Villa/568315999.jpg",
+      "/VillaPhoto/Couple_Villas/Royal Kemala Villa/602636886.jpg",
+      "/VillaPhoto/Couple_Villas/Royal Kemala Villa/602636885.jpg",
+      "/VillaPhoto/Couple_Villas/Royal Kemala Villa/568313891.jpg",
+      "/VillaPhoto/Couple_Villas/Royal Kemala Villa/568313915.jpg",
+      "/VillaPhoto/Couple_Villas/Royal Kemala Villa/623161975.jpg",
+      "/VillaPhoto/Couple_Villas/Royal Kemala Villa/623161989.jpg",
+      "/VillaPhoto/Couple_Villas/Royal Kemala Villa/623161984.jpg",
+      "/VillaPhoto/Couple_Villas/Royal Kemala Villa/623161962.jpg",
+      "/VillaPhoto/Couple_Villas/Royal Kemala Villa/623161969.jpg",
+      "/VillaPhoto/Couple_Villas/Royal Kemala Villa/568321153.jpg",
+      "/VillaPhoto/Couple_Villas/Royal Kemala Villa/623161981.jpg",
+      "/VillaPhoto/Couple_Villas/Royal Kemala Villa/623161978.jpg",
+      "/VillaPhoto/Couple_Villas/Royal Kemala Villa/527443178.jpg",
+      "/VillaPhoto/Couple_Villas/Royal Kemala Villa/527441865.jpg",
+      "/VillaPhoto/Couple_Villas/Royal Kemala Villa/527441856.jpg"
+    ],
+    "promo": {
+      "status": "none",
+      "disc": "0%"
+    },
+    "detail": {
+      "priceRange": "IDR 1.300.000 - IDR 1.500.000",
+      "roomType": "1 Bedroom Luxury Private Couple Villa",
+      "description": "Royal Kemala Villa is a luxurious bamboo resort that offers a unique stay experience in the serene Tampaksiring countryside. This resort combines modern bamboo architecture with traditional Balinese ambiance, creating a peaceful and highly Instagrammable atmosphere.",
+      "checkInTime": "14:00 PM",
+      "checkOutTime": "12:00 PM",
+      "address": "Jl. Raya Pujung Kaja, Tegallalang, Tegallalang District, Gianyar Regency, Bali 80561.",
+      "nearbyPlaces": [
+        "Gunung Kawi Sebatu (1.2 km)",
+        "Pura Tirta Empul (1.5 km)",
+        "Gunung Kawi Tampaksiring (1.6 km)",
+        "Tegallalang Rice Terrace (4.2 km)",
+        "Alas Harum Bali (4.5 km)",
+        "D'Alas Warung (2.7 km)",
+        "Cretya Ubud (4.1 km)",
+        "Tis Cafe (4.3 km)",
+        "Padi Restaurant (4.5 km)",
+        "Lumbung Sari Coffee (4.8 km)"
+      ],
+      "facilities": [
+        "Private Pool",
+        "Fully Equipped Kitchen",
+        "Free Parking Area",
+        "Free Wi-Fi Access",
+        "Air Conditioning",
+        "Daily Housekeeping",
+        "Tropical Garden",
+        "En-suite Bathroom with Bathtub"
+      ],
+      "extraServices": [
+        { "type": "Breakfast in Villa", "price": 150000 },
+        { "type": "Airport Transfer Service", "price": 300000 },
+        { "type": "Car and Motorbike Rental", "price": 250000 },
+        { "type": "In-Villa Massage and Spa", "price": 350000 },
+        { "type": "Tour Arrangement and Local Guide", "price": 600000 },
+        { "type": "Floating Breakfast", "price": 250000 },
+        { "type": "Laundry Service", "price": 50000 },
+        { "type": "Candlelight Dinner Arrangement", "price": 1500000 }
+      ],
+      "cancellationPolicy": "The cancellation policy at Royal Kemala Villa is highly dependent on the booking platform and the length of stay, where free cancellation is available if done 14 to 30 days before arrival. However, for promotional bookings or during peak season (high season), a Non-Refundable policy (no refund) often applies. If cancellation is made beyond the specified time limit, guests will be charged a fee equal to one night's stay up to the total booking cost. Changes in check-in dates also depend on availability, and for emergency situations (force majeure), refunds typically require supporting documents for consideration by management."
+    },
+    "rooms": [
+      {
+        "type": "1-Bedroom Superior Villa without Pool",
+        "price": 1300000
+      },
+      {
+        "type": "1-Bedroom Superior Villa",
+        "price": 1500000
+      }
+    ]
+  }
+]
