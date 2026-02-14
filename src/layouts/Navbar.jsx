@@ -41,7 +41,7 @@ export const Navbar = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 ${isScroll ? "glass" : "bg-transparent"} py-5 z-50`}
+      className={`fixed top-0 left-0 right-0 ${isScroll ? "glass" : "bg-transparent"} py-5 z-50 transition-colors duration-300`}
     >
       <nav className="container margin-auto px-6 flex items-center justify-between">
         <Link

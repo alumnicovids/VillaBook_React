@@ -47,7 +47,12 @@ const useVillaLogic = () => {
     });
   };
 
-  return { villaList, wishlist, toggleWishlist, toast };
+  const clearWishlist = () => {
+    setWishlist([]);
+    showToast("Wishlist cleared", "error");
+  };
+
+  return { villaList, wishlist, toggleWishlist, toast, clearWishlist };
 };
 
 export const VillaProvider = ({ children }) => {
