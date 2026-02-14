@@ -1,6 +1,6 @@
 import { Card } from "@/components/Card";
-import { useVilla } from "@/hooks/useVilla";
 import { Background } from "@/components/Background";
+import { useVilla } from "../context/VillaContext";
 
 export const Home = () => {
   const { villaList } = useVilla();

@@ -1,6 +1,5 @@
 import { Card } from "@/components/Card";
 import { Button } from "@/components/Button";
-import { useVilla } from "@/hooks/useVilla";
 import { Background } from "@/components/Background";
 import {
   MdKeyboardArrowDown,
@@ -8,6 +7,7 @@ import {
   MdSearch,
 } from "react-icons/md";
 import { useEffect, useState } from "react";
+import { useVilla } from "@/context/VillaContext";
 
 export const Discover = () => {
   const { villaList } = useVilla();
