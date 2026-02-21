@@ -6,7 +6,6 @@ import { Discover } from "@/pages/Discover";
 import { Home } from "@/pages/Home";
 import { Profile } from "@/pages/Profile";
 import { Detail } from "@/pages/Detail";
-import { Wishlist } from "./pages/Wishlist";
 
 function App() {
   return (
@@ -19,8 +18,7 @@ function App() {
           <Route path="/discover" element={<Discover />} />
           <Route path="/compare" element={<Compare />} />
           <Route path="/book" element={<Book />} />
-          <Route path="/wishlist" element={<Wishlist />} />
-          <Route path="/profile" element={<Profile />} />
+          <Route path="/profile/*" element={<Profile />} />
         </Routes>
       </main>
     </div>

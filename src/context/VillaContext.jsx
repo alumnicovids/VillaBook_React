@@ -3,7 +3,6 @@ import { fetchVilla } from "@/api/VillaGecko";
 
 const VillaContext = createContext();
 
-// VillaContext.jsx
 const useVillaLogic = () => {
   const [villaList, setVillaList] = useState([]);
   const [toast, setToast] = useState(null);

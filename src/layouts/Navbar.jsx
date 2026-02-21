@@ -19,10 +19,6 @@ const navLinks = [
     href: "/book",
     text: "Book",
   },
-  {
-    href: "/wishlist",
-    text: "Wishlist",
-  },
 ];
 
 export const Navbar = () => {
