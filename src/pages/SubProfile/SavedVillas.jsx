@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Card } from "@/components/Card";
-import { useVilla } from "../../context/VillaContext";
+import { useVilla } from "@/context/VillaContext";
 import { HiOutlineHeart } from "react-icons/hi2";
 import { Link } from "react-router";
 
@@ -16,7 +16,7 @@ export const SavedVillas = () => {
   }, []);
 
   return (
-    <div className="flex flex-col gap-8 animate-in fade-in duration-500 ml-80">
+    <div className="ml-80">
       {showConfirm && (
         <div className="fixed inset-0 z-100 flex items-center justify-center p-4">
           <div
@@ -51,7 +51,7 @@ export const SavedVillas = () => {
         </div>
       )}
 
-      <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
+      <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-8">
         <div>
           <span className="text-primary uppercase tracking-[0.3em] text-[10px] font-bold mb-2 block">
             Saved Properties

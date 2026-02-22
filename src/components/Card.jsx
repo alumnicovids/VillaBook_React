@@ -21,7 +21,7 @@ export const Card = ({ villa }) => {
           className="h-full w-full object-cover"
         />
         <div
-          className="absolute top-4 right-2 text-lg text-red-500 cursor-pointer"
+          className="absolute top-4 right-2 text-lg text-red-500 cursor-pointer transition-colors"
           onClick={() => toggleWishlist(villa)}
         >
           {isWishlisted ? <FaHeart /> : <FaRegHeart />}
@@ -75,6 +75,7 @@ export const Card = ({ villa }) => {
           </div>
         </div>
       </div>
+
       {/* Card Button */}
       <Link to={`/detail/${villa.name}`}>
         <div className="flex items-center justify-between">

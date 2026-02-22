@@ -10,7 +10,11 @@ import { ProfileDetails } from "./SubProfile/ProfileDetails";
 import { SavedVillas } from "./SubProfile/SavedVillas";
 
 const sidebarLinks = [
-  { href: "/profile", text: "Personal Details", icon: <MdPerson size={20} /> },
+  {
+    href: "/profile",
+    text: "Personal Details",
+    icon: <MdPerson size={20} />,
+  },
   {
     href: "/profile/my-bookings",
     text: "My Bookings",
@@ -66,10 +70,10 @@ export const Profile = () => {
 
         <main className="flex-1 flex flex-col gap-8">
           <Routes>
-            <Route path="/profile" element={<ProfileDetails />} />
-            {/* <Route path="/my-bookings" element={<MyBookings />} /> */}
-            <Route path="/saved-villas" element={<SavedVillas />} />
-            {/* <Route path="/payment-methods" element={<PaymentMethods />} /> */}
+            <Route index element={<ProfileDetails />} />
+            <Route path="saved-villas" element={<SavedVillas />} />
+            {/* <Route path="my-bookings" element={<Component />} /> */}
+            {/* <Route path="payment-methods" element={<Component />} /> */}
           </Routes>
         </main>
       </div>
