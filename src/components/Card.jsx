@@ -10,6 +10,14 @@ import { useVilla } from "@/context/VillaContext";
 export const Card = ({ villa }) => {
   const { wishlist, toggleWishlist } = useVilla();
   const isWishlisted = wishlist.some((item) => item.id === villa.id);
+  const hasPromo =
+    villa.promo && villa.promo.status === "active" && villa.promo.disc;
+  const discountPercent = hasPromo
+    ? parseFloat(String(villa.promo.disc).replace("%", "")) || 0
+    : 0;
+  const discountedPrice = hasPromo
+    ? Math.round(villa.price * (1 - discountPercent / 100))
+    : villa.price;
 
   return (
     <div className="relative overflow-hidden rounded-xl glass text-sm text-primary hover:bg-primary/10">
@@ -29,6 +37,11 @@ export const Card = ({ villa }) => {
         <div className="absolute top-2 left-2 glass-soft rounded-xl p-2 text-xs text-accent tracking-tight">
           {villa.tag}
         </div>
+        {hasPromo && (
+          <div className="absolute top-3 left-24 bg-red-500 text-white rounded-full px-2 py-1 text-xs font-bold">
+            {villa.promo.disc}
+          </div>
+        )}
       </div>
 
       {/* Card Title and Price */}
@@ -41,7 +54,18 @@ export const Card = ({ villa }) => {
           </div>
         </div>
         <div className="font-bold text-primary text-sm">
-          {formatPrice(villa.price)}
+          {hasPromo ? (
+            <div className="flex flex-col items-end">
+              <div className="text-sm text-primary">
+                {formatPrice(discountedPrice)}
+              </div>
+              <div className="text-xs text-muted-foreground/70 line-through">
+                {formatPrice(villa.price)}
+              </div>
+            </div>
+          ) : (
+            formatPrice(villa.price)
+          )}
         </div>
       </div>
 
@@ -79,11 +103,7 @@ export const Card = ({ villa }) => {
       {/* Card Button */}
       <Link to={`/detail/${villa.id}`}>
         <div className="flex items-center justify-between">
-          <Button
-            size="sm"
-            className="m-2 w-full hover:scale-[1.02] active:scale-95 transition-all"
-            background="primary"
-          >
+          <Button size="sm" className="m-2 w-full" background="primary">
             View Details
             <span>
               <FaArrowRightLong />

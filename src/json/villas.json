@@ -43,16 +43,16 @@
       "disc": "0%"
     },
     "detail": {
-      "priceRange": "IDR 1.500.000 - IDR 3.500.000 ",
+      "priceRange": "IDR 1.500.000 - IDR 3.500.000",
       "roomType": "1 Bedroom Private Pool Villa",
       "description": "Enjoy a luxurious stay at Le Ayu Villa Canggu. This villa offers total privacy with a modern tropical design, an open-plan living area, and a private pool surrounded by lush gardens.",
-      "checkInTime": "14:00 PM",
-      "checkOutTime": "12:00 PM",
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
       "address": "Munduk Tengah Street No. 3, Pererenan, Mengwi District, Badung Regency, Bali 80351",
       "nearbyPlaces": [
-        "Berawa Beach (10 menit)",
-        "Finn's Beach Club (12 menit)",
-        "Atlas Beach Fest (12 menit)",
+        "Berawa Beach (10 km)",
+        "Finn's Beach Club (12 km)",
+        "Atlas Beach Fest (12 km)",
         "Pererenan Beach (2.5 km)",
         "Echo Beach (2.5 km)"
       ],
@@ -115,9 +115,9 @@
     "detail": {
       "priceRange": "IDR 844.700 - IDR 1.200.000",
       "roomType": "Suite with Private Pool & Gym Access",
-      "description": "Experience luxury harmonized with spirituality and nature at Sake Bali Suites, Tampaksiring. Located among Bali’s iconic green rice paddies, our suites provide total seclusion for couples. Offering a blend of modern fitness amenities and easy access to historic holy sites, it’s the ultimate sanctuary for wellness and tranquility.",
-      "checkInTime": "14:00 PM - 23:00 PM",
-      "checkOutTime": "06:00 AM - 12:00 PM",
+      "description": "Experience luxury harmonized with spirituality and nature at Sake Bali Suites, Tampaksiring. Located among Bali's iconic green rice paddies, our suites provide total seclusion for couples. Offering a blend of modern fitness amenities and easy access to historic holy sites, it's the ultimate sanctuary for wellness and tranquility.",
+      "checkInTime": "14:00 - 23:00",
+      "checkOutTime": "06:00 - 12:00",
       "address": "Erlangga Street, Manukaya, Tampaksiring District, Gianyar Regency, Bali 80552",
       "nearbyPlaces": [
         "Pura Mengening (1.8 km)",
@@ -142,7 +142,7 @@
         { "type": "Massage & Wellness Treatment", "price": 350000 },
         { "type": "Traditional Village Tour Arrangement", "price": 500000 }
       ],
-      "cancellationPolicy": "Cancellation can be made according to the terms and conditions applicable at the time of booking."
+      "cancellationPolicy": "Cancellations made at least 7 days before arrival are eligible for a full refund."
     },
     "rooms": [
       {
@@ -201,8 +201,8 @@
       "priceRange": "IDR 4.500.000 - IDR 6.000.000",
       "roomType": "4 Bedroom Luxury Villa",
       "description": "Da Vinci The Villa by Nagisa Bali is a magnificent property offering ultimate privacy in the Tumbak Bayuh area. Featuring an elegant architectural design, the villa boasts a spacious semi-open living area, a modern kitchen, and lush tropical gardens overlooking a large private pool. It is ideal for large family vacations or groups seeking luxury amidst the tranquil Balinese countryside.",
-      "checkInTime": "15:00 PM - 22:00 PM",
-      "checkOutTime": "07:00 AM - 12:00 PM",
+      "checkInTime": "15:00 - 22:00",
+      "checkOutTime": "07:00 - 12:00",
       "address": "Tumbak Bayuh Street No. 64, Tumbak Bayuh, Mengwi District, Badung Regency, Bali 80351",
       "nearbyPlaces": [
         "Pererenan Beach (4.2 km)",
@@ -228,7 +228,7 @@
         { "type": "In-villa Massage", "price": 350000 },
         { "type": "Car Rental with Driver", "price": 600000 }
       ],
-      "cancellationPolicy": "Cancellation can be made according to the terms and conditions applicable at the time of booking."
+      "cancellationPolicy": "Cancellations made at least 3 days before arrival are eligible for a full refund."
     },
     "rooms": [
       {
@@ -311,8 +311,8 @@
       "priceRange": "IDR 4.192.799 - IDR 5.500.000",
       "roomType": "4 Bedroom Family Villa",
       "description": "Discover spacious living at Enchanting Canggu Villa, complete with a private outdoor pool, garden, and BBQ area. Featuring an open-plan layout, full kitchen, and en-suite bedrooms, it is the perfect retreat for families seeking modern comfort in the heart of iconic Canggu.",
-      "checkInTime": "14:00 PM",
-      "checkOutTime": "12:00 PM",
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
       "address": "Nelayan Street No. 31, Canggu, North Kuta District, Badung Regency, Bali 80361",
       "nearbyPlaces": [
         "Nelayan Beach (0.6 km)",
@@ -338,7 +338,7 @@
         { "type": "Daily Housekeeping", "price": 150000 },
         { "type": "Grocery Deliveries", "price": 50000 }
       ],
-      "cancellationPolicy": "Cancellation can be made according to the terms and conditions applicable at the time of booking."
+      "cancellationPolicy": "Cancellations made at least 3 days before arrival are eligible for a full refund."
     },
     "rooms": [
       {
@@ -407,8 +407,8 @@
       "priceRange": "IDR 4.500.000 - IDR 6.200.000",
       "roomType": "Luxury 5 Bedroom Villa",
       "description": "Hidden 5BR Gem Luxe Pool Villa offers an exclusive stay in Pererenan, featuring a modern minimalist design blended with tropical comfort. The property boasts a private infinity pool, an expansive open-plan living area, and a fully equipped gourmet kitchen, making it the ideal choice for family gatherings or large groups seeking privacy.",
-      "checkInTime": "15:00 PM",
-      "checkOutTime": "11:00 AM",
+      "checkInTime": "15:00",
+      "checkOutTime": "11:00",
       "address": "Tumbak Bayuh Street No. 64, Tumbak Bayuh, Mengwi District, Badung Regency, Bali 80351",
       "nearbyPlaces": [
         "Baked Pererenan (0.8 km)",
@@ -434,7 +434,7 @@
         { "type": "Scooter & Car Rental", "price": 150000 },
         { "type": "Laundry Service", "price": 50000 }
       ],
-      "cancellationPolicy": "Cancellations made at least 14 days prior to arrival are eligible for a full refund.."
+      "cancellationPolicy": "Cancellations made at least 14 days before arrival are eligible for a full refund."
     },
     "rooms": [
       {
@@ -487,8 +487,8 @@
       "priceRange": "IDR 2.300.000 - IDR 2.800.000",
       "roomType": "2 Bedroom Private Sanctuary",
       "description": "Sojourn is an exclusive boutique villa in Mengwi that blends modern luxury with the tranquility of the countryside. Featuring an open-space concept with a private pool overlooking emerald rice fields and warm minimalist interiors, it offers a deeply private atmosphere for couples or small families seeking an escape from the city crowds.",
-      "checkInTime": "14:00 PM",
-      "checkOutTime": "12:00 PM",
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
       "address": "Raya Duma Street, Mengwi, Mengwi District, Badung Regency, Bali 80351",
       "nearbyPlaces": [
         "Pura Taman Ayun (3.5 km)",
@@ -514,7 +514,7 @@
         { "type": "In-villa Spa & Massage", "price": 350000 },
         { "type": "Car Rental with Driver", "price": 600000 }
       ],
-      "cancellationPolicy": "Cancellations made at least 7 days prior to the check-in date are eligible for a full refund."
+      "cancellationPolicy": "Cancellations made at least 7 days before arrival are eligible for a full refund."
     },
     "rooms": [
       {
@@ -595,9 +595,9 @@
     "detail": {
       "priceRange": "IDR 2.800.000 - IDR 3.200.000",
       "roomType": "3 Bedroom Modern Tropical Villa",
-      "description": "Experience luxury at Villa Kiki Modern Tropical, your stylish sanctuary in central Canggu. This villa boasts three spacious bedrooms, a private pool, and a sleek semi-outdoor lounge. The ideal choice for couples or small groups looking for modern comfort in the heart of Bali’s most vibrant area.",
-      "checkInTime": "14:00 PM",
-      "checkOutTime": "11:00 AM",
+      "description": "Experience luxury at Villa Kiki Modern Tropical, your stylish sanctuary in central Canggu. This villa boasts three spacious bedrooms, a private pool, and a sleek semi-outdoor lounge. The ideal choice for couples or small groups looking for modern comfort in the heart of Bali's most vibrant area.",
+      "checkInTime": "14:00",
+      "checkOutTime": "11:00",
       "address": "Nelayan Street, Canggu, North Kuta District, Badung Regency, Bali 80361",
       "nearbyPlaces": [
         "Nelayan Beach (1.1 km)",
@@ -621,7 +621,7 @@
         { "type": "Laundry Service", "price": 50000 },
         { "type": "In-villa Massage", "price": 350000 }
       ],
-      "cancellationPolicy": "Cancellation terms may vary depending on the platform and time of booking."
+      "cancellationPolicy": "Cancellations made at least 3 days before arrival are eligible for a full refund."
     },
     "rooms": [
       {
@@ -674,8 +674,8 @@
       "priceRange": "IDR 2.000.000 - IDR 2.500.000",
       "roomType": "Resort Style 2 Bedroom Villa",
       "description": "Predmed Kabaka Resort offers an exclusive escape in the serene village of Kaba-Kaba. The property presents a blend of modern architecture and lush Balinese tropical landscapes, complete with a spacious private pool, an open-air dining area, and soul-soothing rice field views. It is perfectly suited for families seeking an authentic rural atmosphere without compromising on modern resort amenities.",
-      "checkInTime": "14:00 PM",
-      "checkOutTime": "12:00 PM",
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
       "address": "Kaba-Kaba Street, Kaba-Kaba, Kediri District, Tabanan Regency, Bali 82121",
       "nearbyPlaces": [
         "Nyanyi Beach (6.2 km)",
@@ -701,7 +701,7 @@
         { "type": "Tour Desk", "price": 500000 },
         { "type": "In-room Massage", "price": 350000 }
       ],
-      "cancellationPolicy": "Cancellation terms may vary depending on the platform and time of booking."
+      "cancellationPolicy": "Cancellations made at least 3 days before arrival are eligible for a full refund."
     },
     "rooms": [
       {
@@ -766,8 +766,8 @@
       "priceRange": "IDR 1.200.000 - IDR 1.500.000",
       "roomType": "Cozy 1 Bedroom Villa",
       "description": "Villa 10 Viber Canggu is a modern oasis for couples seeking comfort and style in Bali's most trendy location. This villa highlights minimalist aesthetics with boho-chic touches, offering a tranquil bedroom area directly connected to a private pool and intimate sun deck. Its strategic location makes it easy to access various beach clubs and popular cafes in the Canggu area.",
-      "checkInTime": "14:00 PM",
-      "checkOutTime": "11:00 AM",
+      "checkInTime": "14:00",
+      "checkOutTime": "11:00",
       "address": "Tegal Sari Street No. 10, Canggu, North Kuta District, Badung Regency, Bali 80361",
       "nearbyPlaces": [
         "Obsidian Canggu (0.5 km)",
@@ -792,7 +792,7 @@
         { "type": "In-villa Massage", "price": 350000 },
         { "type": "Floating Breakfast Arrangement", "price": 250000 }
       ],
-      "cancellationPolicy": "Cancellations made at least 3 days prior to arrival are eligible for a full refund."
+      "cancellationPolicy": "Cancellations made at least 3 days before arrival are eligible for a full refund."
     },
     "rooms": [
       {
@@ -870,8 +870,8 @@
       "priceRange": "IDR 1.500.000 - IDR 4.500.000",
       "roomType": "5 Bedroom Boutique Villa",
       "description": "Experience 'chic' tropical luxury at Villa Fleur, where modern aesthetics meet natural elements. This expansive yet intimate villa boasts a crystal private pool, stylish relaxation spots, and uniquely themed Instagrammable bedrooms. Perfectly situated in the premium heart of Canggu.",
-      "checkInTime": "14:00 PM",
-      "checkOutTime": "12:00 PM",
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
       "address": "Nelayan Street, Canggu, North Kuta District, Badung Regency, Bali 80361",
       "nearbyPlaces": [
         "Milk & Madu (0.9 km)",
@@ -897,7 +897,7 @@
         { "type": "Massage & Spa Treatment", "price": 350000 },
         { "type": "Laundry Service", "price": 50000 }
       ],
-      "cancellationPolicy": "Cancellations made at least 3 days prior to arrival are eligible for a full refund."
+      "cancellationPolicy": "Cancellations made at least 3 days before arrival are eligible for a full refund."
     },
     "rooms": [
       {
@@ -961,8 +961,8 @@
       "priceRange": "IDR 800.000 - IDR 1.200.000",
       "roomType": "Multi-room Guesthouse",
       "description": "Riyuri Guesthouse provides comfortable and affordable accommodation in the strategic area of Berawa, Canggu. It is perfectly suited for families or groups wanting easy access to popular beach clubs and cafes without sacrificing tranquility. The guesthouse features clean rooms, a fully equipped shared kitchen, and an outdoor pool for relaxing under the Balinese sun.",
-      "checkInTime": "14:00 PM",
-      "checkOutTime": "12:00 PM",
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
       "address": "Subak Sari Street No. 12, Tibubeneng, North Kuta District, Badung Regency, Bali 80361",
       "nearbyPlaces": [
         "Canggu Deli (0.3 km)",
@@ -987,7 +987,7 @@
         { "type": "Airport Transfer (Surcharge)", "price": 300000 },
         { "type": "Tour Arrangement", "price": 500000 }
       ],
-      "cancellationPolicy": "Cancellations made at least 3 days prior to arrival are eligible for a full refund."
+      "cancellationPolicy": "Cancellations made at least 3 days before arrival are eligible for a full refund."
     },
     "rooms": [
       {
@@ -1046,8 +1046,8 @@
       "priceRange": "IDR 1.400.000 - IDR 1.800.000",
       "roomType": "2 Bedroom Villa in Pererenan",
       "description": "Villa Auri Pererenan offers a lush, modern living experience in the serene area of Tumbak Bayuh. Designed with a tropical minimalist style, the villa features a crystal-clear private pool and a semi-open living area that provides fresh natural air circulation, making it an ideal choice for family relaxation on the outskirts of Canggu.",
-      "checkInTime": "14:00 PM - 20:00 PM",
-      "checkOutTime": "07:00 AM - 12:00 PM",
+      "checkInTime": "14:00 - 20:00",
+      "checkOutTime": "07:00 - 12:00",
       "address": "Tumbak Bayuh Street No. 18, Tumbak Bayuh, Mengwi District, Badung Regency, Bali 80351",
       "nearbyPlaces": [
         "Pererenan Beach (2.7 km)",
@@ -1072,7 +1072,7 @@
         { "type": "Daily Housekeeping", "price": 150000 },
         { "type": "Laundry Service", "price": 50000 }
       ],
-      "cancellationPolicy": "Cancellations made at least 3 days prior to arrival are eligible for a full refund."
+      "cancellationPolicy": "Cancellations made at least 3 days before arrival are eligible for a full refund."
     },
     "rooms": [
       {
@@ -1127,8 +1127,8 @@
       "priceRange": "IDR 3.200.000 - IDR 4.000.000",
       "roomType": "Elegant 3 Bedroom Villa",
       "description": "Discover Villa Salamanca by Blacksand, where Balinese heritage meets modern luxury. Located in peaceful Tumbak Bayuh, it features a secluded private pool, lush tropical gardens, and sophisticated wooden interiors. A true home away from home for families seeking a serene Balinese retreat.",
-      "checkInTime": "14:00 PM",
-      "checkOutTime": "12:00 PM",
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
       "address": "Tumbak Bayuh Street, Tumbak Bayuh, Mengwi District, Badung Regency, Bali 80351",
       "nearbyPlaces": [
         "Black Sand Brewery (5.2 km)",
@@ -1154,7 +1154,7 @@
         { "type": "In-villa Massage", "price": 350000 },
         { "type": "Laundry Service", "price": 50000 }
       ],
-      "cancellationPolicy": "Cancellations made at least 3 days prior to arrival are eligible for a full refund."
+      "cancellationPolicy": "Cancellations made at least 3 days before arrival are eligible for a full refund."
     },
     "rooms": [
       {
@@ -1216,8 +1216,8 @@
       "priceRange": "IDR 1.800.000 - IDR 3.500.000",
       "roomType": "Boutique 2 Bedroom Villa",
       "description": "Villa Rosado is a hidden tropical oasis offering the perfect combination of modern design and warm comfort. Strategically located in Canggu, this villa features lush garden areas with a crystal-clear private pool, an elegant semi-open living room, and soothing bedroom interiors, making it a favorite choice for couples and travelers seeking tranquility amidst the bustle of Bali.",
-      "checkInTime": "14:00 PM - 20:00 PM",
-      "checkOutTime": "11:00 AM",
+      "checkInTime": "14:00 - 20:00",
+      "checkOutTime": "11:00",
       "address": "Nelayan Street, Canggu, North Kuta District, Badung Regency, Bali 80361",
       "nearbyPlaces": [
         "Echo Beach (1.0 km)",
@@ -1243,7 +1243,7 @@
         { "type": "Car/Scooter Rental", "price": 250000 },
         { "type": "Laundry & Dry Cleaning", "price": 75000 }
       ],
-      "cancellationPolicy": "Cancellations made at least 3 days prior to arrival are eligible for a full refund."
+      "cancellationPolicy": "Cancellations made at least 3 days before arrival are eligible for a full refund."
     },
     "rooms": [
       {
@@ -1317,8 +1317,8 @@
       "priceRange": "IDR 4.500.000 - IDR 5.000.000",
       "roomType": "3 Bedroom Luxury Private Villa",
       "description": "Villa Sista is a representation of modern luxury amidst the lush landscapes of Tumbak Bayuh. Offering absolute privacy, this villa features floor-to-ceiling windows that overlook the tropical gardens and an infinity pool. With sophisticated contemporary interiors and a serene atmosphere, it is a premier destination for those seeking premium tranquility on the outskirts of Canggu.",
-      "checkInTime": "14:00 PM",
-      "checkOutTime": "11:00 AM",
+      "checkInTime": "14:00",
+      "checkOutTime": "11:00",
       "address": "Tumbak Bayuh Street, Mengwi District, Badung Regency, Bali 80351",
       "nearbyPlaces": [
         "Munggu Beach (2.5 km)",
@@ -1345,7 +1345,7 @@
         { "type": "Laundry Service", "price": 50000 },
         { "type": "Car Rental with Driver", "price": 600000 }
       ],
-      "cancellationPolicy": "Cancellations made at least 3 days prior to arrival are eligible for a full refund."
+      "cancellationPolicy": "Cancellations made at least 3 days before arrival are eligible for a full refund."
     },
     "rooms": [
       {
@@ -1390,8 +1390,8 @@
       "priceRange": "IDR 900.000 - IDR 1.500.000",
       "roomType": "2 Bedroom Luxury Private Villa",
       "description": "Tiara Villa Ubud is a representation of modern luxury amidst the lush landscapes of Tampaksiring. Offering absolute privacy, this villa features floor-to-ceiling windows overlooking the tropical gardens and an infinity pool. With sophisticated contemporary interiors and a serene atmosphere, it is a premier destination for those seeking premium tranquility on the outskirts of Ubud.",
-      "checkInTime": "13:00 PM",
-      "checkOutTime": "11:00 AM",
+      "checkInTime": "13:00",
+      "checkOutTime": "11:00",
       "address": "Raya Uma Kelod Street, Sebatu, Tegallalang District, Gianyar Regency, Bali 80571",
       "nearbyPlaces": [
         "Campuhan Ridge Walk (1.2 km)",
@@ -1420,7 +1420,7 @@
         { "type": "Scooter and Car Rental", "price": 250000 },
         { "type": "Romantic Flower Decoration", "price": 500000 }
       ],
-      "cancellationPolicy": "Cancellations made at least 3 days prior to arrival are eligible for a full refund."
+      "cancellationPolicy": "Cancellations made at least 3 days before arrival are eligible for a full refund."
     },
     "rooms": [
       {
@@ -1467,8 +1467,8 @@
       "priceRange": "IDR 1.180.000 - IDR 2.060.000",
       "roomType": "1-2 Bedroom Luxury Private Family Villa",
       "description": "KAPI Sebatu Villa is an exclusive accommodation offering a serene stay amidst the lush nature of Ubud. This villa is perfectly suited for those seeking privacy and a profound connection with Bali's natural beauty.",
-      "checkInTime": "14:00 PM",
-      "checkOutTime": "12:00 PM",
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
       "address": "Sebatu, Tegallalang District, Gianyar Regency, Bali 80561.",
       "nearbyPlaces": [
         "Pura Gunung Kawi Sebatu (1.5 km)",
@@ -1503,7 +1503,7 @@
         { "type": "Afternoon Tea", "price": 150000 },
         { "type": "Cooking Class", "price": 450000 }
       ],
-      "cancellationPolicy": "The cancellation policy at KAPI Sebatu Villa is non-refundable or follows the specific terms of the booking platform used, including full charges for late cancellations within 48 hours or no-shows without prior notice."
+      "cancellationPolicy": "Non-refundable - Full charges apply for late cancellations within 48 hours or no-shows without prior notice."
     },
     "rooms": [
       {
@@ -1549,8 +1549,8 @@
       "priceRange": "IDR 3.000.000 - IDR 4.000.000",
       "roomType": "2-3 Bedroom Luxury Private Family Villa",
       "description": "Villa Dolce Farniente is a luxury accommodation located in the peaceful Tegallalang area of Bali, specifically designed to offer a maximum relaxation experience amidst tropical nature, making it a hidden retreat offering total privacy and a peaceful atmosphere for those seeking spiritual tranquility.",
-      "checkInTime": "14:00 PM",
-      "checkOutTime": "12:00 PM",
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
       "address": "Pupuan, Tegallalang District, Gianyar Regency, Bali.",
       "nearbyPlaces": [
         "Alas Harum Bali (3.2 km)",
@@ -1583,7 +1583,7 @@
         { "type": "Afternoon Tea", "price": 150000 },
         { "type": "Cooking Class", "price": 450000 }
       ],
-      "cancellationPolicy": "The cancellation policy at Villa Dolce Farniente is non-refundable (cannot be refunded) or follows the specific terms of the booking platform used, including full charges for late cancellations within 48 hours or no-shows without prior notice."
+      "cancellationPolicy": "Non-refundable - Full charges apply for late cancellations within 48 hours or no-shows without prior notice."
     },
     "rooms": [
       {
@@ -1634,8 +1634,8 @@
       "priceRange": "IDR 4.250.000 - IDR 5.500.000",
       "roomType": "1-2 Bedroom Luxury Private Couple Villa",
       "description": "Eco Six Bali is a luxurious bamboo resort that offers a unique stay experience in the serene Tampaksiring countryside. This resort combines modern bamboo architecture with traditional Balinese ambiance, creating a peaceful and highly Instagrammable atmosphere.",
-      "checkInTime": "14:00 PM",
-      "checkOutTime": "12:00 PM",
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
       "address": "Jl. Raya Ayodya, Tampaksiring, Tampaksiring District, Gianyar Regency, Bali 80552.",
       "nearbyPlaces": [
         "Pura Tirta Empul (1.3 km)",
@@ -1671,7 +1671,7 @@
         { "type": "Laundry Service", "price": 50000 },
         { "type": "Birthday or Anniversary Decor", "price": 500000 }
       ],
-      "cancellationPolicy": "The cancellation policy at Eco Six Bali is generally non-refundable (cannot be refunded), especially for bookings made through the official website or promotional prices. However, on certain platforms, free cancellation or schedule changes are sometimes possible if requested 14 to 30 days before the check-in date. Guests are strongly advised to review booking details or contact staff via WhatsApp for specific policies regarding itinerary changes."
+      "cancellationPolicy": "Non-refundable for direct bookings. Free cancellation or changes available on certain platforms if requested 14-30 days before arrival."
     },
     "rooms": [
       {
@@ -1723,8 +1723,8 @@
       "priceRange": "IDR 1.300.000 - IDR 1.500.000",
       "roomType": "1 Bedroom Luxury Private Couple Villa",
       "description": "Royal Kemala Villa is a luxurious bamboo resort that offers a unique stay experience in the serene Tampaksiring countryside. This resort combines modern bamboo architecture with traditional Balinese ambiance, creating a peaceful and highly Instagrammable atmosphere.",
-      "checkInTime": "14:00 PM",
-      "checkOutTime": "12:00 PM",
+      "checkInTime": "14:00",
+      "checkOutTime": "12:00",
       "address": "Jl. Raya Pujung Kaja, Tegallalang, Tegallalang District, Gianyar Regency, Bali 80561.",
       "nearbyPlaces": [
         "Gunung Kawi Sebatu (1.2 km)",
@@ -1758,7 +1758,7 @@
         { "type": "Laundry Service", "price": 50000 },
         { "type": "Candlelight Dinner Arrangement", "price": 1500000 }
       ],
-      "cancellationPolicy": "The cancellation policy at Royal Kemala Villa is highly dependent on the booking platform and the length of stay, where free cancellation is available if done 14 to 30 days before arrival. However, for promotional bookings or during peak season (high season), a Non-Refundable policy (no refund) often applies. If cancellation is made beyond the specified time limit, guests will be charged a fee equal to one night's stay up to the total booking cost. Changes in check-in dates also depend on availability, and for emergency situations (force majeure), refunds typically require supporting documents for consideration by management."
+      "cancellationPolicy": "Free cancellation if done 14-30 days before arrival. Non-refundable during high season. One night charge for cancellations beyond specified limits."
     },
     "rooms": [
       {

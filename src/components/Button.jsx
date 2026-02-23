@@ -6,7 +6,7 @@ export const Button = ({
   children,
 }) => {
   const baseClasses =
-    "rounded-[var(--radius)] font-medium transition-all duration-200 active:opacity-80 hover:brightness-110";
+    "rounded-[var(--radius)] font-medium transition-all duration-200 active:opacity-80 hover:brightness-110 hover:scale-[1.02] active:scale-95 transition-all";
   const sizeClasses = {
     sm: "py-2 px-4 text-sm",
     default: "py-3 px-6 text-base",

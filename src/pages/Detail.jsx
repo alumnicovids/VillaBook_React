@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams, Link, useNavigate } from "react-router";
-import { useVilla } from "../context/VillaContext";
+import { useVilla } from "@/context/VillaContext";
 import {
   MdLocationOn,
-  MdShare,
-  MdFavoriteBorder,
   MdKingBed,
   MdBathtub,
   MdPool,
@@ -15,20 +13,34 @@ import {
   MdEventAvailable,
   MdSchedule,
 } from "react-icons/md";
-import { Background } from "../components/Background";
+import { Background } from "@/components/Background";
+import { Button } from "@/components/Button";
+import { FaHeart, FaRegHeart } from "react-icons/fa";
 
 export const Detail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const { villaList } = useVilla();
+  const { villaList, toggleWishlist, wishlist } = useVilla();
   const [villa, setVilla] = useState(null);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
     if (villaList && villaList.length > 0) {
       const found = villaList.find((v) => v.id.toString() === id);
       setVilla(found);
+      setCurrentImageIndex(0);
     }
   }, [id, villaList]);
+
+  useEffect(() => {
+    if (!villa || villa.image.length <= 1) return;
+
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prev) => (prev + 1) % villa.image.length);
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, [villa]);
 
   if (!villa)
     return (
@@ -36,6 +48,8 @@ export const Detail = () => {
         Loading...
       </main>
     );
+
+  const isWishlisted = wishlist.some((item) => item.id === villa.id);
 
   return (
     <section className="relative min-h-screen items-center overflow-hidden">
@@ -71,9 +85,44 @@ export const Detail = () => {
             <img
               alt={villa.name}
               className="w-full h-full object-cover"
-              src={villa.image[0]}
+              src={villa.image[currentImageIndex]}
             />
             <div className="absolute inset-0 bg-linear-to-t from-background via-transparent to-transparent opacity-80"></div>
+
+            {/* Image Counter and Controls */}
+            <div className="absolute top-4 right-4 flex items-center gap-2">
+              <div className="bg-surface/50 backdrop-blur-md px-4 py-2 rounded-full text-sm font-medium text-foreground">
+                {currentImageIndex + 1} / {villa.image.length}
+              </div>
+            </div>
+
+            {/* Navigation Arrows */}
+            {villa.image.length > 1 && (
+              <>
+                <button
+                  onClick={() =>
+                    setCurrentImageIndex(
+                      (prev) =>
+                        (prev - 1 + villa.image.length) % villa.image.length,
+                    )
+                  }
+                  className="absolute left-4 top-1/2 -translate-y-1/2 bg-surface/50 hover:bg-surface/70 backdrop-blur-md text-foreground p-3 rounded-full transition-all opacity-0 group-hover:opacity-100"
+                >
+                  ←
+                </button>
+                <button
+                  onClick={() =>
+                    setCurrentImageIndex(
+                      (prev) => (prev + 1) % villa.image.length,
+                    )
+                  }
+                  className="absolute right-4 top-1/2 -translate-y-1/2 bg-surface/50 hover:bg-surface/70 backdrop-blur-md text-foreground p-3 rounded-full transition-all opacity-0 group-hover:opacity-100"
+                >
+                  →
+                </button>
+              </>
+            )}
+
             <div className="absolute bottom-0 left-0 p-12 w-full flex justify-between items-end">
               <div className="text-foreground">
                 <div className="flex items-center gap-2 mb-4">
@@ -94,11 +143,11 @@ export const Detail = () => {
                 </p>
               </div>
               <div className="flex gap-4">
-                <button className="bg-surface/30 hover:bg-surface/50 backdrop-blur-md text-foreground px-6 py-3 rounded-xl flex items-center gap-2 transition-all">
-                  <MdShare /> Share
-                </button>
-                <button className="bg-surface/30 hover:bg-surface/50 backdrop-blur-md text-foreground px-6 py-3 rounded-xl flex items-center gap-2 transition-all">
-                  <MdFavoriteBorder /> Save
+                <button
+                  onClick={() => toggleWishlist(villa)}
+                  className={`${isWishlisted ? "bg-accent hover:bg-accent/80 text-red-500" : "bg-surface/30 hover:bg-surface/50"} backdrop-blur-md text-foreground px-6 py-3 rounded-xl flex items-center gap-2 transition-all`}
+                >
+                  {isWishlisted ? <FaHeart /> : <FaRegHeart />} Save
                 </button>
               </div>
             </div>
@@ -246,12 +295,13 @@ export const Detail = () => {
                     </p>
                   </div>
                 </div>
-                <button
+                <Button
                   onClick={() => navigate(`/book/${villa.id}`)}
-                  className="w-full bg-primary text-primary-foreground py-5 rounded-xl font-bold text-lg hover:opacity-90 transition-all mb-6 flex items-center justify-center gap-3"
+                  background="primary"
+                  className="w-full mb-6"
                 >
                   Confirm Booking <MdArrowForward />
-                </button>
+                </Button>
                 <div className="space-y-3">
                   <div className="flex items-center gap-3 text-xs text-muted-foreground">
                     <MdVerifiedUser className="text-sm" /> Best price guaranteed

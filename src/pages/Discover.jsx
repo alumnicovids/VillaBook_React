@@ -25,7 +25,12 @@ export const Discover = () => {
       const matchesSearch =
         villa.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
         villa.location.toLowerCase().includes(searchTerm.toLowerCase());
-      const matchesCategory = categoryTerm === "" || villa.tag === categoryTerm;
+
+      const matchesCategory =
+        categoryTerm === "" ||
+        (categoryTerm === "Promo"
+          ? villa.promo && villa.promo.status === "active"
+          : villa.tag === categoryTerm);
 
       return matchesSearch && matchesCategory;
     });
@@ -81,6 +86,9 @@ export const Discover = () => {
               </option>
               <option value="Family Villa" className="bg-surface">
                 Family Villa
+              </option>
+              <option value="Promo" className="bg-surface">
+                Promo
               </option>
             </select>
             <div className="absolute right-4 pointer-events-none text-muted-foreground">
