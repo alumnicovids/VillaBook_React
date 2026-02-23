@@ -1,7 +1,10 @@
 import { Button } from "@/components/button";
 import { CgProfile } from "react-icons/cg";
+import { useVilla } from "@/context/VillaContext";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 export const ProfileDetails = () => {
+  const { profileData } = useVilla();
   return (
     <div className="ml-80">
       {/* Profile Detailed Info */}
@@ -10,31 +13,48 @@ export const ProfileDetails = () => {
           <div className="flex items-center justify-between">
             <div className="flex gap-4">
               {/* Profile Picture */}
-              <CgProfile size={50} className="hover:text-primary" />
+              <CgProfile size={50} />
               {/* Personal Info */}
               <div>
-                <h1 className="text-xl font-bold text-primary">
-                  Asmara Kusuma
-                </h1>
-                <p className="text-sm">Solo Traveler</p>
+                <div className="flex items-center gap-2">
+                  <h1 className="text-xl font-bold text-primary">
+                    {profileData.name}
+                  </h1>
+                  <p className="bg-background rounded-full text-xs py-1 px-4">
+                    NEW MEMBER
+                  </p>
+                </div>
+                <p className="text-sm">{profileData.bio}</p>
               </div>
             </div>
             {/* Edit Button */}
             <Button size="sm" className="text-sm font-bold">
-              Edit Profil <span></span>
+              Edit Profile
+              <span>
+                <FaArrowRightLong size={12} />
+              </span>
             </Button>
           </div>
         </div>
 
-        <div>
+        <div className="flex gap-20 mt-8 border-t border-accent/60">
           {/* Email */}
-          <div></div>
+          <div className="mt-8 text-xs">
+            <h1 className="text-primary">EMAIL</h1>
+            <p>{profileData.email}</p>
+          </div>
 
           {/* Phone */}
-          <div></div>
+          <div className="mt-8 text-xs">
+            <h1 className="text-primary">PHONE</h1>
+            <p>{profileData.phone}</p>
+          </div>
 
           {/* Address */}
-          <div></div>
+          <div className="mt-8 text-xs">
+            <h1 className="text-primary">ADDRESS</h1>
+            <p>{profileData.address}</p>
+          </div>
         </div>
       </div>
 

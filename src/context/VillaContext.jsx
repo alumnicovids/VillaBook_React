@@ -51,7 +51,23 @@ const useVillaLogic = () => {
     showToast("Wishlist cleared", "error");
   };
 
-  return { villaList, wishlist, toggleWishlist, toast, clearWishlist };
+  const profileData = {
+    name: "Asmara Kusuma",
+    bio: "Junior Traveler",
+    email: "iasmarakusuma@gmail.com",
+    phone: "+62 812-3456-7890",
+    address: "Jl. Merdeka No. 123, Jakarta",
+    avatar: "https://i.pravatar.cc/150?img=3",
+  };
+
+  return {
+    villaList,
+    wishlist,
+    toggleWishlist,
+    toast,
+    clearWishlist,
+    profileData,
+  };
 };
 
 export const VillaProvider = ({ children }) => {
