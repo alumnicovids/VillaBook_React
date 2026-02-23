@@ -77,7 +77,7 @@ export const Card = ({ villa }) => {
       </div>
 
       {/* Card Button */}
-      <Link to={`/detail/${villa.name}`}>
+      <Link to={`/detail/${villa.id}`}>
         <div className="flex items-center justify-between">
           <Button
             size="sm"

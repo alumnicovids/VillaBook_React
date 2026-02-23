@@ -17,16 +17,17 @@ export const ProfileDetails = () => {
               {/* Personal Info */}
               <div>
                 <div className="flex items-center gap-2">
-                  <h1 className="text-xl font-bold text-primary">
+                  <h1 className="text-xl font-serif font-bold text-primary">
                     {profileData.name}
                   </h1>
-                  <p className="bg-background rounded-full text-xs py-1 px-4">
+                  <p className="bg-background rounded-full text-xs text-accent py-1 px-4">
                     NEW MEMBER
                   </p>
                 </div>
                 <p className="text-sm">{profileData.bio}</p>
               </div>
             </div>
+
             {/* Edit Button */}
             <Button size="sm" className="text-sm font-bold">
               Edit Profile
