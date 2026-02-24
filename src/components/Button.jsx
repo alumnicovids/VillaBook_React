@@ -4,6 +4,7 @@ export const Button = ({
   background = "primary",
   onClick = () => {},
   children,
+  disabled = false,
 }) => {
   const baseClasses =
     "rounded-[var(--radius)] font-medium transition-all duration-200 active:opacity-80 hover:brightness-110 hover:scale-[1.02] active:scale-95 transition-all";
@@ -21,7 +22,7 @@ export const Button = ({
 
   const classes = `${baseClasses} ${sizeClasses[size]} ${backgroundClasses[background]} ${className}`;
   return (
-    <button className={classes} onClick={onClick}>
+    <button className={classes} onClick={onClick} disabled={disabled}>
       <span className="relative flex items-center justify-center gap-2">
         {children}
       </span>

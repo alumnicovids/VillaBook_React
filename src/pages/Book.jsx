@@ -26,7 +26,14 @@ export const Book = () => {
   const navigate = useNavigate();
   const { villaList, profileData } = useVilla();
   const [villa, setVilla] = useState(null);
-  const [stage, setStage] = useState(1);
+  const [stage, setStage] = useState(() => {
+    // Only load stage from localStorage if there's a villa ID (route /book/:id)
+    if (id) {
+      return 1; // Always start at stage 1 for /book/:id
+    }
+    // For /book route without ID, stage will be set when villa data is loaded
+    return 1;
+  });
   const [selectedRoom, setSelectedRoom] = useState(null);
   const [selectedServices, setSelectedServices] = useState([]);
   const [bookingReference, setBookingReference] = useState(null);
@@ -39,17 +46,108 @@ export const Book = () => {
     nights: 1,
   }));
 
+  // Save stage to localStorage whenever it changes
   useEffect(() => {
-    if (villaList && villaList.length > 0) {
+    if (!villa) return; // Only save when villa is loaded
+
+    if (id) {
+      // For /book/:id route
+      localStorage.setItem(`booking_stage_${id}`, stage.toString());
+    } else {
+      // For /book route without ID, save to active booking stage
+      localStorage.setItem("booking_stage_active", stage.toString());
+    }
+  }, [stage, id, villa]);
+
+  useEffect(() => {
+    if (!id) {
+      const bookings = JSON.parse(
+        localStorage.getItem("villa_bookings") || "[]",
+      );
+
+      if (bookings.length > 0 && villaList && villaList.length > 0) {
+        const activeBooking = bookings[bookings.length - 1];
+        const found = villaList.find((v) => v.id === activeBooking.id);
+
+        if (found) {
+          setVilla(found);
+          setSelectedRoom(
+            found.rooms.find((r) => r.type === activeBooking.roomType) ||
+              found.rooms[0],
+          );
+          setGuestInfo(activeBooking.guestInfo);
+          setSelectedServices(
+            activeBooking.selectedServices.map((service) =>
+              found.detail.extraServices.findIndex(
+                (s) => s.type === service.type,
+              ),
+            ),
+          );
+          setBookingReference(activeBooking.bookingReference);
+          const savedStage = localStorage.getItem("booking_stage_active");
+          setStage(savedStage ? parseInt(savedStage) : 6);
+        } else {
+          setGuestInfo({
+            name: profileData?.name || "",
+            email: profileData?.email || "",
+            phone: profileData?.phone || "",
+            checkin: "",
+            checkout: "",
+            nights: 1,
+          });
+        }
+      } else {
+        setGuestInfo({
+          name: profileData?.name || "",
+          email: profileData?.email || "",
+          phone: profileData?.phone || "",
+          checkin: "",
+          checkout: "",
+          nights: 1,
+        });
+      }
+    } else if (villaList && villaList.length > 0 && id) {
       const found = villaList.find((v) => v.id.toString() === id);
       setVilla(found);
       if (found?.rooms?.length > 0) {
         setSelectedRoom(found.rooms[0]);
       }
-    }
-  }, [id, villaList]);
 
-  if (!villa) {
+      const bookings = JSON.parse(
+        localStorage.getItem("villa_bookings") || "[]",
+      );
+      const activeBooking = bookings.find(
+        (b) => b.id.toString() === id.toString(),
+      );
+
+      if (activeBooking) {
+        setSelectedRoom(
+          found.rooms.find((r) => r.type === activeBooking.roomType) ||
+            found.rooms[0],
+        );
+        setGuestInfo(activeBooking.guestInfo);
+        setSelectedServices(
+          activeBooking.selectedServices.map((service) =>
+            found.detail.extraServices.findIndex(
+              (s) => s.type === service.type,
+            ),
+          ),
+        );
+        setBookingReference(activeBooking.bookingReference);
+      } else {
+        setGuestInfo({
+          name: profileData?.name || "",
+          email: profileData?.email || "",
+          phone: profileData?.phone || "",
+          checkin: "",
+          checkout: "",
+          nights: 1,
+        });
+      }
+    }
+  }, [id, villaList, profileData]);
+
+  if (!villa || (!id && stage < 6)) {
     return (
       <section className="relative min-h-screen flex items-center overflow-hidden">
         <Background />
@@ -81,7 +179,10 @@ export const Book = () => {
                 background="muted"
                 className="flex items-center justify-center gap-2"
               >
-                <MdSearch /> Browse Villas
+                <span>
+                  <MdSearch size={20} />
+                </span>
+                Browse Villas
               </Button>
             </div>
           </div>
@@ -117,12 +218,32 @@ export const Book = () => {
   const nextStage = () => setStage((prev) => Math.min(prev + 1, 8));
   const prevStage = () => setStage((prev) => Math.max(prev - 1, 1));
 
+  // Validation functions for each stage
+  const isStage1Valid = () => !!selectedRoom;
+
+  const isStage2Valid = () => {
+    // Check if all required fields are filled
+    if (
+      !guestInfo.name.trim() ||
+      !guestInfo.email.trim() ||
+      !guestInfo.phone.trim() ||
+      !guestInfo.checkin ||
+      !guestInfo.checkout
+    ) {
+      return false;
+    }
+
+    // Check if checkout date is after checkin date
+    const checkinDate = new Date(guestInfo.checkin);
+    const checkoutDate = new Date(guestInfo.checkout);
+
+    return checkoutDate > checkinDate;
+  };
+
   const handleConfirmPayment = () => {
-    // Create booking reference
     const ref = `BK${Math.random().toString(36).substr(2, 9).toUpperCase()}`;
     setBookingReference(ref);
 
-    // Save booking data to localStorage
     const bookingData = {
       id: villa.id,
       villaName: villa.name,
@@ -146,16 +267,15 @@ export const Book = () => {
       bookingDate: new Date().toISOString(),
     };
 
-    // Get existing bookings or create new array
     const existingBookings = JSON.parse(
       localStorage.getItem("villa_bookings") || "[]",
     );
-    existingBookings.push(bookingData);
+    const updatedBookings = existingBookings.filter((b) => b.id !== villa.id);
 
-    // Save to localStorage
-    localStorage.setItem("villa_bookings", JSON.stringify(existingBookings));
+    updatedBookings.push(bookingData);
 
-    // Move to confirmation stage
+    localStorage.setItem("villa_bookings", JSON.stringify(updatedBookings));
+
     nextStage();
   };
 
@@ -286,7 +406,8 @@ export const Book = () => {
                   <Button
                     onClick={nextStage}
                     background="primary"
-                    className="w-full"
+                    className="w-full disabled:opacity-50 disabled:cursor-not-allowed"
+                    disabled={!isStage1Valid()}
                   >
                     Continue <MdArrowForward />
                   </Button>
@@ -314,6 +435,7 @@ export const Book = () => {
                       name="name"
                       value={guestInfo.name}
                       onChange={handleGuestInfoChange}
+                      required
                       className="w-full px-4 py-2 rounded-lg bg-background border border-border text-foreground placeholder-muted-foreground focus:outline-none focus:border-primary"
                       placeholder="John Doe"
                     />
@@ -327,6 +449,7 @@ export const Book = () => {
                       name="email"
                       value={guestInfo.email}
                       onChange={handleGuestInfoChange}
+                      required
                       className="w-full px-4 py-2 rounded-lg bg-background border border-border text-foreground placeholder-muted-foreground focus:outline-none focus:border-primary"
                       placeholder="john@example.com"
                     />
@@ -340,6 +463,7 @@ export const Book = () => {
                       name="phone"
                       value={guestInfo.phone}
                       onChange={handleGuestInfoChange}
+                      required
                       className="w-full px-4 py-2 rounded-lg bg-background border border-border text-foreground placeholder-muted-foreground focus:outline-none focus:border-primary"
                       placeholder="+62..."
                     />
@@ -354,6 +478,7 @@ export const Book = () => {
                         name="checkin"
                         value={guestInfo.checkin}
                         onChange={handleGuestInfoChange}
+                        required
                         className="w-full px-4 py-2 rounded-lg bg-background border border-border text-foreground focus:outline-none focus:border-primary"
                       />
                     </div>
@@ -366,6 +491,7 @@ export const Book = () => {
                         name="checkout"
                         value={guestInfo.checkout}
                         onChange={handleGuestInfoChange}
+                        required
                         className="w-full px-4 py-2 rounded-lg bg-background border border-border text-foreground focus:outline-none focus:border-primary"
                       />
                     </div>
@@ -390,7 +516,8 @@ export const Book = () => {
                   <Button
                     onClick={nextStage}
                     background="primary"
-                    className="w-full"
+                    className="w-full disabled:opacity-50 disabled:cursor-not-allowed"
+                    disabled={!isStage2Valid()}
                   >
                     Continue <MdArrowForward />
                   </Button>
@@ -833,7 +960,7 @@ export const Book = () => {
 
                 <Button
                   onClick={() => {
-                    // Move booking to history
+                    // 1. Handle localStorage: Move current booking to history
                     const bookings = JSON.parse(
                       localStorage.getItem("villa_bookings") || "[]",
                     );
@@ -841,10 +968,16 @@ export const Book = () => {
                       localStorage.getItem("booking_history") || "[]",
                     );
 
-                    if (bookings.length > 0) {
-                      const lastBooking = bookings[bookings.length - 1];
+                    const updatedBookings = bookings.filter(
+                      (b) => b.bookingReference !== bookingReference,
+                    );
+                    const completedBooking = bookings.find(
+                      (b) => b.bookingReference === bookingReference,
+                    );
+
+                    if (completedBooking) {
                       history.push({
-                        ...lastBooking,
+                        ...completedBooking,
                         completedDate: new Date().toISOString(),
                         status: "completed",
                       });
@@ -852,13 +985,38 @@ export const Book = () => {
                         "booking_history",
                         JSON.stringify(history),
                       );
-                      bookings.pop();
-                      localStorage.setItem(
-                        "villa_bookings",
-                        JSON.stringify(bookings),
-                      );
                     }
 
+                    localStorage.setItem(
+                      "villa_bookings",
+                      JSON.stringify(updatedBookings),
+                    );
+
+                    // 2. Clear stage-related tracking
+                    localStorage.removeItem("booking_stage_active");
+                    if (id) {
+                      localStorage.removeItem(`booking_stage_${id}`);
+                    }
+
+                    // 3. Reset ALL component states to initial values
+                    setVilla(null);
+                    setStage(1);
+                    setSelectedRoom(null);
+                    setSelectedServices([]);
+                    setBookingReference(null);
+
+                    // Force reset guest info including dates
+                    const defaultGuestInfo = {
+                      name: profileData?.name || "",
+                      email: profileData?.email || "",
+                      phone: profileData?.phone || "",
+                      checkin: "",
+                      checkout: "",
+                      nights: 1,
+                    };
+                    setGuestInfo(defaultGuestInfo);
+
+                    // 4. Navigate home
                     navigate("/");
                   }}
                   background="primary"

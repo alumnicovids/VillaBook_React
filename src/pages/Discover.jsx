@@ -5,6 +5,7 @@ import {
   MdKeyboardArrowDown,
   MdOutlineCategory,
   MdSearch,
+  MdSearchOff,
 } from "react-icons/md";
 import { useEffect, useState } from "react";
 import { useVilla } from "@/context/VillaContext";
@@ -99,8 +100,11 @@ export const Discover = () => {
           <Button
             onClick={handleSearch}
             size="sm"
-            className="w-full md:w-auto px-8 py-4 rounded-xl font-bold bg-primary text-primary-foreground hover:scale-[1.02] active:scale-95 transition-all"
+            className="w-full md:w-auto px-12 py-4 rounded-xl font-bold bg-primary text-primary-foreground hover:scale-[1.02] active:scale-95 transition-all"
           >
+            <span>
+              <MdSearch size={20} />
+            </span>
             Search
           </Button>
         </div>
@@ -117,12 +121,9 @@ export const Discover = () => {
               </div>
             ))
           ) : (
-            <div className="col-span-full py-24 flex flex-col items-center justify-center text-center">
+            <div className="col-span-full py-10 flex flex-col items-center justify-center text-center">
               <div className="relative mb-6">
-                <MdSearch size={80} className="text-muted opacity-20" />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-12 h-1 bg-accent/50 rotate-45 absolute" />
-                </div>
+                <MdSearchOff size={80} className="text-muted opacity-50" />
               </div>
               <h3 className="text-2xl font-serif text-primary mb-2">
                 No Sanctuaries Found
