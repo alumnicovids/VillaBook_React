@@ -39,7 +39,7 @@ export const Card = ({ villa }) => {
         </div>
         {hasPromo && (
           <div className="absolute top-3 left-24 bg-red-500 text-white rounded-full px-2 py-1 text-xs font-bold">
-            {villa.promo.disc}
+            {villa.promo.disc} OFF
           </div>
         )}
       </div>

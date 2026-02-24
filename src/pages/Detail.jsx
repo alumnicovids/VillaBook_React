@@ -16,6 +16,7 @@ import {
 import { Background } from "@/components/Background";
 import { Button } from "@/components/Button";
 import { FaHeart, FaRegHeart } from "react-icons/fa";
+import { formatPrice } from "@/utils/Formatter";
 
 export const Detail = () => {
   const { id } = useParams();
@@ -50,6 +51,16 @@ export const Detail = () => {
     );
 
   const isWishlisted = wishlist.some((item) => item.id === villa.id);
+
+  // Promo logic
+  const hasPromo =
+    villa.promo && villa.promo.status === "active" && villa.promo.disc;
+  const discountPercent = hasPromo
+    ? parseFloat(String(villa.promo.disc).replace("%", "")) || 0
+    : 0;
+  const discountedPrice = hasPromo
+    ? Math.round(villa.price * (1 - discountPercent / 100))
+    : villa.price;
 
   return (
     <section className="relative min-h-screen items-center overflow-hidden">
@@ -283,13 +294,29 @@ export const Detail = () => {
             <div className="lg:col-span-1">
               <div className="glass border border-border p-8 rounded-xl sticky top-24 shadow-sm">
                 <div className="flex items-baseline justify-between mb-8">
-                  <div>
+                  <div className="w-full">
                     <p className="text-muted-foreground text-sm font-medium uppercase tracking-widest mb-1">
                       Price from
                     </p>
-                    <h3 className="text-3xl font-bold text-primary">
-                      IDR {villa.price.toLocaleString("id-ID")}
-                    </h3>
+                    {hasPromo ? (
+                      <div className="space-y-2">
+                        <div className="flex items-center gap-3">
+                          <h3 className="text-3xl font-bold text-primary">
+                            {formatPrice(discountedPrice)}
+                          </h3>
+                          <span className="text-xs bg-red-500 text-white px-2 py-1 rounded-full font-bold">
+                            {villa.promo.disc} OFF
+                          </span>
+                        </div>
+                        <p className="text-sm text-muted-foreground line-through">
+                          {formatPrice(villa.price)}
+                        </p>
+                      </div>
+                    ) : (
+                      <h3 className="text-3xl font-bold text-primary">
+                        {formatPrice(villa.price)}
+                      </h3>
+                    )}
                     <p className="text-xs text-muted-foreground mt-1">
                       / night inclusive of taxes
                     </p>
@@ -311,8 +338,8 @@ export const Detail = () => {
                     confirmation
                   </div>
                   <div className="flex items-center gap-3 text-xs text-muted-foreground">
-                    <MdSchedule className="text-sm" /> Free cancellation until
-                    48h before
+                    <MdSchedule className="text-sm" />{" "}
+                    {villa.detail.cancellationPolicy}
                   </div>
                 </div>
                 <div className="mt-8 pt-8 border-t border-border">
@@ -320,17 +347,35 @@ export const Detail = () => {
                     Available Room Types
                   </p>
                   <div className="space-y-2">
-                    {villa.rooms.map((room, index) => (
-                      <div
-                        key={index}
-                        className="flex justify-between items-center py-2 text-sm border-b border-border last:border-0"
-                      >
-                        <span className="text-foreground">{room.type}</span>
-                        <span className="font-bold text-primary">
-                          IDR {room.price.toLocaleString("id-ID")}
-                        </span>
-                      </div>
-                    ))}
+                    {villa.rooms.map((room, index) => {
+                      const roomDiscountedPrice = hasPromo
+                        ? Math.round(room.price * (1 - discountPercent / 100))
+                        : room.price;
+                      return (
+                        <div
+                          key={index}
+                          className="flex justify-between items-center py-2 text-sm border-b border-border last:border-0"
+                        >
+                          <span className="text-foreground">{room.type}</span>
+                          <div className="flex flex-col items-end gap-1">
+                            {hasPromo ? (
+                              <>
+                                <span className="font-bold text-primary">
+                                  {formatPrice(roomDiscountedPrice)}
+                                </span>
+                                <span className="text-xs text-muted-foreground line-through">
+                                  {formatPrice(room.price)}
+                                </span>
+                              </>
+                            ) : (
+                              <span className="font-bold text-primary">
+                                {formatPrice(room.price)}
+                              </span>
+                            )}
+                          </div>
+                        </div>
+                      );
+                    })}
                   </div>
                 </div>
               </div>
