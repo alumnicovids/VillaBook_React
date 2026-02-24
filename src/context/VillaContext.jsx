@@ -65,6 +65,7 @@ const useVillaLogic = () => {
     wishlist,
     toggleWishlist,
     toast,
+    showToast,
     clearWishlist,
     profileData,
   };
