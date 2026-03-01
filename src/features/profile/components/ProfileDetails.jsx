@@ -7,7 +7,7 @@ import { MdLocationOn } from "react-icons/md";
 import { Link } from "react-router";
 
 export const ProfileDetails = () => {
-  const { profileData, villaList } = useVilla();
+  const { profileData, villaList, logout } = useVilla();
   const [isEditModalOpen, setIsEditModalOpen] = useState(false);
 
   const bookings = JSON.parse(localStorage.getItem("booking_history") || "[]");
@@ -43,17 +43,27 @@ export const ProfileDetails = () => {
               </div>
             </div>
 
-            {/* Edit Button */}
-            <Button 
-              size="sm" 
-              className="text-sm font-bold"
-              onClick={() => setIsEditModalOpen(true)}
-            >
-              Edit Profile
-              <span>
-                <FaArrowRightLong size={12} />
-              </span>
-            </Button>
+            {/* Actions */}
+            <div className="flex gap-3">
+              <Button 
+                size="sm" 
+                variant="outline"
+                className="text-sm font-bold border-red-500/50 text-red-500 hover:bg-red-500/10"
+                onClick={logout}
+              >
+                Sign Out
+              </Button>
+              <Button 
+                size="sm" 
+                className="text-sm font-bold"
+                onClick={() => setIsEditModalOpen(true)}
+              >
+                Edit Profile
+                <span>
+                  <FaArrowRightLong size={12} />
+                </span>
+              </Button>
+            </div>
           </div>
         </div>
 

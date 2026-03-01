@@ -51,23 +51,44 @@ const useVillaLogic = () => {
     showToast("Wishlist cleared", "error");
   };
 
+  const DEFAULT_PROFILE = {
+    name: "Profile Name",
+    bio: "Profile Bio",
+    email: "ProfileEmail@gmail.com",
+    phone: "+62 000 0000 0000",
+    address: "Profile Address",
+    avatar: "Blank_Profile.jpg",
+  };
+
   const [profileData, setProfileData] = useState(() => {
     const saved = localStorage.getItem("villa_profile");
-    return saved
-      ? JSON.parse(saved)
-      : {
-          name: "Profile Name",
-          bio: "Profile Bio",
-          email: "ProfileEmail@gmail.com",
-          phone: "+62 000 0000 0000",
-          address: "Profile Address",
-          avatar: "Blank_Profile.jpg",
-        };
+    return saved ? JSON.parse(saved) : DEFAULT_PROFILE;
+  });
+
+  const [isLoggedIn, setIsLoggedIn] = useState(() => {
+    const saved = localStorage.getItem("villa_is_logged_in");
+    return saved === "true";
   });
 
   useEffect(() => {
     localStorage.setItem("villa_profile", JSON.stringify(profileData));
   }, [profileData]);
+
+  useEffect(() => {
+    localStorage.setItem("villa_is_logged_in", isLoggedIn.toString());
+  }, [isLoggedIn]);
+
+  const login = (userData) => {
+    setProfileData(userData);
+    setIsLoggedIn(true);
+    showToast("Logged in successfully", "success");
+  };
+
+  const logout = () => {
+    setProfileData(DEFAULT_PROFILE);
+    setIsLoggedIn(false);
+    showToast("Logged out successfully", "error");
+  };
 
   const updateProfile = (newData) => {
     setProfileData((prev) => ({ ...prev, ...newData }));
@@ -129,6 +150,9 @@ const useVillaLogic = () => {
     addPaymentMethod,
     removePaymentMethod,
     setDefaultPaymentMethod,
+    isLoggedIn,
+    login,
+    logout,
   };
 };
 

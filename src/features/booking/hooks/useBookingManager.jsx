@@ -43,6 +43,7 @@ export const useBookingManager = (id, villaList, profileData) => {
           const savedStage = localStorage.getItem("booking_stage_active");
           setStage(savedStage ? parseInt(savedStage) : 6);
         } else {
+          setStage(1);
           setGuestInfo({
             name: !isDefaultProfile ? profileData?.name : "",
             email: !isDefaultProfile ? profileData?.email : "",
@@ -53,6 +54,7 @@ export const useBookingManager = (id, villaList, profileData) => {
           });
         }
       } else {
+        setStage(1);
         setGuestInfo({
           name: !isDefaultProfile ? profileData?.name : "",
           email: !isDefaultProfile ? profileData?.email : "",
@@ -73,6 +75,8 @@ export const useBookingManager = (id, villaList, profileData) => {
       const activeBooking = bookings.find(
         (b) => b.id.toString() === id.toString(),
       );
+      
+      const savedStage = localStorage.getItem("booking_stage_active");
       if (activeBooking) {
         setSelectedRoom(
           found.rooms.find((r) => r.type === activeBooking.roomType) ||
@@ -87,7 +91,9 @@ export const useBookingManager = (id, villaList, profileData) => {
           ),
         );
         setBookingReference(activeBooking.bookingReference);
+        setStage(savedStage ? parseInt(savedStage) : 6);
       } else {
+        setStage(1);
         setGuestInfo({
           name: !isDefaultProfile ? profileData?.name : "",
           email: !isDefaultProfile ? profileData?.email : "",
@@ -101,9 +107,7 @@ export const useBookingManager = (id, villaList, profileData) => {
   }, [id, villaList, profileData]);
 
   useEffect(() => {
-    if (stage >= 6) {
-      localStorage.setItem("booking_stage_active", stage.toString());
-    }
+    localStorage.setItem("booking_stage_active", stage.toString());
   }, [stage]);
 
   const confirmPayment = (

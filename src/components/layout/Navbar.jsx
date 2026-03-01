@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router";
 import { CgProfile } from "react-icons/cg";
 import { useEffect, useState } from "react";
+import { useVilla } from "@/context/VillaContext";
 
 const navLinks = [
   {
@@ -24,6 +25,7 @@ const navLinks = [
 export const Navbar = () => {
   const location = useLocation();
   const [isScroll, setIsScroll] = useState(false);
+  const { isLoggedIn } = useVilla();
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -66,12 +68,21 @@ export const Navbar = () => {
           </div>
         </div>
 
-        <Link
-          to="/profile"
-          className="min-w-28 flex items-center justify-center hover:text-primary"
-        >
-          <CgProfile size={30} />
-        </Link>
+        {isLoggedIn ? (
+          <Link
+            to="/profile"
+            className="min-w-28 flex items-center justify-center hover:text-primary"
+          >
+            <CgProfile size={30} />
+          </Link>
+        ) : (
+          <Link
+            to="/profile"
+            className="min-w-28 flex items-center justify-center px-6 py-2 bg-primary text-primary-foreground rounded-full text-sm font-bold hover:brightness-110 transition-all"
+          >
+            Login
+          </Link>
+        )}
       </nav>
     </header>
   );

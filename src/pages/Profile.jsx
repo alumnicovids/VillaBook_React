@@ -11,6 +11,8 @@ import { SavedVillas } from "@/features/profile/components/SavedVillas";
 import { MyBookings } from "@/features/profile/components/MyBookings";
 import { PaymentMethods } from "@/features/profile/components/PaymentMethods";
 import { ContactSupportModal } from "@/features/profile/components/ContactSupportModal";
+import { LoginView } from "@/features/profile/components/LoginView";
+import { useVilla } from "@/context/VillaContext";
 import { useState } from "react";
 
 const sidebarLinks = [
@@ -39,6 +41,18 @@ const sidebarLinks = [
 export const Profile = () => {
   const location = useLocation();
   const [isSupportOpen, setIsSupportOpen] = useState(false);
+  const { isLoggedIn } = useVilla();
+
+  if (!isLoggedIn) {
+    return (
+      <section className="relative min-h-screen overflow-hidden">
+        <Background />
+        <div className="container mx-auto px-4 mt-32 mb-20 relative z-10">
+          <LoginView />
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section className="relative min-h-screen overflow-hidden">
