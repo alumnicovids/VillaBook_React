@@ -15,10 +15,6 @@ const useVillaLogic = () => {
     localStorage.setItem("villa_wishlist", JSON.stringify(wishlist));
   }, [wishlist]);
 
-  useEffect(() => {
-    fetchVillasData();
-  }, []);
-
   const fetchVillasData = async () => {
     try {
       const data = await fetchVilla();
@@ -28,9 +24,14 @@ const useVillaLogic = () => {
     }
   };
 
+  useEffect(() => {
+    fetchVillasData();
+  }, []);
+
   const showToast = (message, type = "success") => {
     setToast({ message, type });
-    setTimeout(() => setToast(null), 3000);
+    // Reset toast state after animation
+    setTimeout(() => setToast(null), 3500);
   };
 
   const toggleWishlist = (villa) => {
