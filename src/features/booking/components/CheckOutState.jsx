@@ -1,5 +1,5 @@
 import { MdCardTravel, MdStarRate, MdHome } from "react-icons/md";
-import { Button } from "@/components/Button";
+import { Button } from "@/components/common/Button";
 
 export const CheckOutState = ({ onReview, onHome }) => {
   return (

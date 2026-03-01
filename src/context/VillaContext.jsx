@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import { fetchVilla } from "@/api/VillaGecko";
+import { fetchVilla } from "@/services/VillaService";
 
 const VillaContext = createContext();
 

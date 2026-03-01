@@ -6,7 +6,6 @@ export const Button = ({
   children,
   disabled = false,
 }) => {
-  // src/components/Button.jsx
   const baseClasses =
     "rounded-[var(--radius)] font-medium transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed hover:disabled:brightness-100 hover:disabled:scale-100 active:disabled:scale-100 [&:not(:disabled)]:active:opacity-80 [&:not(:disabled)]:hover:brightness-110 [&:not(:disabled)]:hover:scale-[1.02] [&:not(:disabled)]:active:scale-95";
   const sizeClasses = {

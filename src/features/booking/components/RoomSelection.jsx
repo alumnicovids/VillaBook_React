@@ -1,5 +1,5 @@
 import { MdArrowForward } from "react-icons/md";
-import { Button } from "@/components/Button";
+import { Button } from "@/components/common/Button";
 import { formatPrice } from "@/utils/Formatter";
 
 export const RoomSelection = ({

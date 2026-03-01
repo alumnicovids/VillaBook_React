@@ -1,6 +1,6 @@
-import { Card } from "@/components/Card";
-import { Button } from "@/components/Button";
-import { Background } from "@/components/Background";
+import { VillaCard as Card } from "@/features/villas/components/VillaCard";
+import { Button } from "@/components/common/Button";
+import { Background } from "@/components/layout/Background";
 import {
   MdKeyboardArrowDown,
   MdOutlineCategory,

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
-import { Button } from "@/components/Button";
+import { Button } from "@/components/common/Button";
 
 export const GuestInfoForm = ({ initialData, onBack, onSubmit }) => {
   const [formData, setFormData] = useState(initialData);

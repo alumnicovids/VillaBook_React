@@ -13,8 +13,8 @@ import {
   MdEventAvailable,
   MdSchedule,
 } from "react-icons/md";
-import { Background } from "@/components/Background";
-import { Button } from "@/components/Button";
+import { Background } from "@/components/layout/Background";
+import { Button } from "@/components/common/Button";
 import { FaHeart, FaRegHeart } from "react-icons/fa";
 import { formatPrice } from "@/utils/Formatter";
 

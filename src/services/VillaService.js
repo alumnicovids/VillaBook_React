@@ -1,4 +1,4 @@
-import villasData from "@/json/villas.json";
+import villasData from "@/data/villas.json";
 
 export const fetchVilla = async () => {
   return villasData;

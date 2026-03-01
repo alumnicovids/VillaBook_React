@@ -1,6 +1,6 @@
-import { Card } from "@/components/Card";
-import { Background } from "@/components/Background";
-import { useVilla } from "../context/VillaContext";
+import { VillaCard as Card } from "@/features/villas/components/VillaCard";
+import { Background } from "@/components/layout/Background";
+import { useVilla } from "@/context/VillaContext";
 
 export const Home = () => {
   const { villaList } = useVilla();

@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router";
-import { Navbar } from "@/layouts/Navbar";
+import { Navbar } from "@/components/layout/Navbar";
 import { Book } from "@/pages/Book";
 import { Compare } from "@/pages/Compare";
 import { Discover } from "@/pages/Discover";

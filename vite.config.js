@@ -11,4 +11,8 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  server: {
+    open: "/index.html", // atau true
+    browser: "chrome", // Gunakan 'google-chrome' di Linux, 'chrome' di Windows/macOS
+  },
 });

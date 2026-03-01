@@ -1,18 +1,18 @@
 import { useParams, useNavigate } from "react-router";
 import { useVilla } from "@/context/VillaContext";
-import { Background } from "@/components/Background";
-import { useBookingManager } from "@/context/useBookingManager";
-import { ProgressBar } from "@/pages/BookState/ProgressBar";
-import { RoomSelection } from "@/pages/BookState/RoomSelection";
-import { GuestInfoForm } from "@/pages/BookState/GuestInfoForm";
-import { ExtraServices } from "@/pages/BookState/ExtraServices";
-import { ReviewBooking } from "@/pages/BookState/ReviewBooking";
-import { PaymentStage } from "@/pages/BookState/PaymentStage";
-import { SuccessStage } from "@/pages/BookState/SuccessState";
-import { BookingSummary } from "@/pages/BookState/BookingSummary";
-import { CheckOutState } from "./BookState/CheckOutState";
-import { ActiveBookingState } from "./BookState/ActiveBookingState";
-import { ReviewModal } from "@/components/ReviewModal";
+import { Background } from "@/components/layout/Background";
+import { useBookingManager } from "@/features/booking/hooks/useBookingManager";
+import { ProgressBar } from "@/features/booking/components/ProgressBar";
+import { RoomSelection } from "@/features/booking/components/RoomSelection";
+import { GuestInfoForm } from "@/features/booking/components/GuestInfoForm";
+import { ExtraServices } from "@/features/booking/components/ExtraServices";
+import { ReviewBooking } from "@/features/booking/components/ReviewBooking";
+import { PaymentStage } from "@/features/booking/components/PaymentStage";
+import { SuccessStage } from "@/features/booking/components/SuccessState";
+import { BookingSummary } from "@/features/booking/components/BookingSummary";
+import { CheckOutState } from "@/features/booking/components/CheckOutState";
+import { ActiveBookingState } from "@/features/booking/components/ActiveBookingState";
+import { ReviewModal } from "@/features/villas/components/ReviewModal";
 import { useState } from "react";
 import { HiOutlineBookmarkAlt, HiOutlineTag } from "react-icons/hi";
 
@@ -57,7 +57,7 @@ export const Book = () => {
     navigate("/");
   };
 
-  const onSubmitReview = (reviewData) => {
+  const onSubmitReview = () => {
     setIsReviewOpen(false);
     showToast("Review submitted successfully!", "success");
     handleHome();

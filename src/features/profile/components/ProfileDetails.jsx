@@ -1,4 +1,4 @@
-import { Button } from "@/components/button";
+import { Button } from "@/components/common/Button";
 import { CgProfile } from "react-icons/cg";
 import { useVilla } from "@/context/VillaContext";
 import { FaArrowRightLong } from "react-icons/fa6";

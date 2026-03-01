@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { Background } from "../components/Background";
-import { fetchVilla } from "../api/VillaGecko";
+import { Background } from "@/components/layout/Background";
+import { fetchVilla } from "@/services/VillaService";
 
 export const Compare = () => {
   const [selectedVillas, setSelectedVillas] = useState(() => {

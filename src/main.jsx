@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App.jsx";
 import { BrowserRouter } from "react-router";
 import { VillaProvider } from "@/context/VillaContext.jsx";
-import { Toast } from "@/components/Toast";
+import { Toast } from "@/components/common/Toast";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

@@ -1,13 +1,14 @@
-import { Button } from "@/components/Button";
-import { FaHeart, FaRegHeart } from "react-icons/fa";
-import { FaArrowRightLong } from "react-icons/fa6";
-import { IoBedOutline } from "react-icons/io5";
-import { MdLocationOn, MdOutlineBathtub, MdPool } from "react-icons/md";
 import { Link } from "react-router";
+import { FaHeart, FaRegHeart } from "react-icons/fa";
+import { IoBedOutline } from "react-icons/io5";
+import { FaArrowRightLong } from "react-icons/fa6";
+import { MdLocationOn, MdOutlineBathtub, MdPool } from "react-icons/md";
+
 import { formatPrice } from "@/utils/Formatter";
+import { Button } from "@/components/common/Button";
 import { useVilla } from "@/context/VillaContext";
 
-export const Card = ({ villa }) => {
+export const VillaCard = ({ villa }) => {
   const { wishlist, toggleWishlist } = useVilla();
   const isWishlisted = wishlist.some((item) => item.id === villa.id);
   const hasPromo =

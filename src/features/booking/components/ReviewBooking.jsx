@@ -1,5 +1,5 @@
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
-import { Button } from "@/components/Button";
+import { Button } from "@/components/common/Button";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 
 export const ReviewBooking = ({ guestInfo, onBack, onConfirm }) => {

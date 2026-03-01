@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Card } from "@/components/Card";
+import { VillaCard as Card } from "@/features/villas/components/VillaCard";
 import { useVilla } from "@/context/VillaContext";
 import { HiOutlineHeart } from "react-icons/hi2";
 import { Link } from "react-router";

@@ -5,9 +5,9 @@ import {
   MdFavorite,
   MdPayment,
 } from "react-icons/md";
-import { Background } from "@/components/Background";
-import { ProfileDetails } from "./SubProfile/ProfileDetails";
-import { SavedVillas } from "./SubProfile/SavedVillas";
+import { Background } from "@/components/layout/Background";
+import { ProfileDetails } from "@/features/profile/components/ProfileDetails";
+import { SavedVillas } from "@/features/profile/components/SavedVillas";
 
 const sidebarLinks = [
   {
