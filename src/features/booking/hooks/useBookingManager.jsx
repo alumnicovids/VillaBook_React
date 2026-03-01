@@ -17,7 +17,7 @@ export const useBookingManager = (id, villaList, profileData) => {
   useEffect(() => {
     if (!id) {
       const bookings = JSON.parse(
-        localStorage.getItem("villa_bookings") || "[]",
+        localStorage.getItem("booking_history") || "[]",
       );
       if (bookings.length > 0 && villaList && villaList.length > 0) {
         const activeBooking = bookings[bookings.length - 1];
@@ -64,7 +64,7 @@ export const useBookingManager = (id, villaList, profileData) => {
         setSelectedRoom(found.rooms[0]);
       }
       const bookings = JSON.parse(
-        localStorage.getItem("villa_bookings") || "[]",
+        localStorage.getItem("booking_history") || "[]",
       );
       const activeBooking = bookings.find(
         (b) => b.id.toString() === id.toString(),
@@ -139,11 +139,11 @@ export const useBookingManager = (id, villaList, profileData) => {
     };
 
     const existingBookings = JSON.parse(
-      localStorage.getItem("villa_bookings") || "[]",
+      localStorage.getItem("booking_history") || "[]",
     );
     const updatedBookings = existingBookings.filter((b) => b.id !== villa.id);
     updatedBookings.push(bookingData);
-    localStorage.setItem("villa_bookings", JSON.stringify(updatedBookings));
+    localStorage.setItem("booking_history", JSON.stringify(updatedBookings));
 
     nextStage();
   };

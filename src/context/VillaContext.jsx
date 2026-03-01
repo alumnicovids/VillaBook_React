@@ -51,13 +51,69 @@ const useVillaLogic = () => {
     showToast("Wishlist cleared", "error");
   };
 
-  const profileData = {
-    name: "Asmara Kusuma",
-    bio: "Junior Traveler",
-    email: "iasmarakusuma@gmail.com",
-    phone: "+62 812-3456-7890",
-    address: "Jl. Merdeka No. 123, Jakarta",
-    avatar: "https://i.pravatar.cc/150?img=3",
+  const [profileData, setProfileData] = useState(() => {
+    const saved = localStorage.getItem("villa_profile");
+    return saved
+      ? JSON.parse(saved)
+      : {
+          name: "Profile Name",
+          bio: "Profile Bio",
+          email: "ProfileEmail@gmail.com",
+          phone: "+62 000 0000 0000",
+          address: "Profile Address",
+          avatar: "Blank_Profile.jpg",
+        };
+  });
+
+  useEffect(() => {
+    localStorage.setItem("villa_profile", JSON.stringify(profileData));
+  }, [profileData]);
+
+  const updateProfile = (newData) => {
+    setProfileData((prev) => ({ ...prev, ...newData }));
+    showToast("Profile updated successfully", "success");
+  };
+
+  const [paymentMethods, setPaymentMethods] = useState(() => {
+    const saved = localStorage.getItem("villa_payments");
+    return saved ? JSON.parse(saved) : [
+      { id: 1, type: "visa", last4: "4242", expiry: "12/26", isDefault: true },
+    ];
+  });
+
+  useEffect(() => {
+    localStorage.setItem("villa_payments", JSON.stringify(paymentMethods));
+  }, [paymentMethods]);
+
+  const addPaymentMethod = (card) => {
+    const newCard = {
+      ...card,
+      id: Date.now(),
+      isDefault: paymentMethods.length === 0,
+    };
+    setPaymentMethods((prev) => [...prev, newCard]);
+    showToast("Payment method added", "success");
+  };
+
+  const removePaymentMethod = (id) => {
+    setPaymentMethods((prev) => {
+      const filtered = prev.filter((card) => card.id !== id);
+      if (filtered.length > 0 && prev.find(c => c.id === id)?.isDefault) {
+        filtered[0].isDefault = true;
+      }
+      return filtered;
+    });
+    showToast("Payment method removed", "error");
+  };
+
+  const setDefaultPaymentMethod = (id) => {
+    setPaymentMethods((prev) => 
+      prev.map((card) => ({
+        ...card,
+        isDefault: card.id === id,
+      }))
+    );
+    showToast("Default payment method updated", "success");
   };
 
   return {
@@ -68,6 +124,11 @@ const useVillaLogic = () => {
     showToast,
     clearWishlist,
     profileData,
+    updateProfile,
+    paymentMethods,
+    addPaymentMethod,
+    removePaymentMethod,
+    setDefaultPaymentMethod,
   };
 };
 

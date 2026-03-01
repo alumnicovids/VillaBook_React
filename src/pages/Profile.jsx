@@ -8,6 +8,10 @@ import {
 import { Background } from "@/components/layout/Background";
 import { ProfileDetails } from "@/features/profile/components/ProfileDetails";
 import { SavedVillas } from "@/features/profile/components/SavedVillas";
+import { MyBookings } from "@/features/profile/components/MyBookings";
+import { PaymentMethods } from "@/features/profile/components/PaymentMethods";
+import { ContactSupportModal } from "@/features/profile/components/ContactSupportModal";
+import { useState } from "react";
 
 const sidebarLinks = [
   {
@@ -34,6 +38,7 @@ const sidebarLinks = [
 
 export const Profile = () => {
   const location = useLocation();
+  const [isSupportOpen, setIsSupportOpen] = useState(false);
 
   return (
     <section className="relative min-h-screen overflow-hidden">
@@ -62,7 +67,10 @@ export const Profile = () => {
             <p className="text-sm text-muted-foreground leading-relaxed mb-4">
               Need help with your booking? Our concierge team is available 24/7.
             </p>
-            <button className="text-sm font-bold text-foreground hover:text-primary transition-colors">
+            <button 
+              onClick={() => setIsSupportOpen(true)}
+              className="text-sm font-bold text-foreground hover:text-primary transition-colors"
+            >
               Contact Support
             </button>
           </div>
@@ -72,11 +80,16 @@ export const Profile = () => {
           <Routes>
             <Route index element={<ProfileDetails />} />
             <Route path="saved-villas" element={<SavedVillas />} />
-            {/* <Route path="my-bookings" element={<Component />} /> */}
-            {/* <Route path="payment-methods" element={<Component />} /> */}
+            <Route path="my-bookings" element={<MyBookings />} />
+            <Route path="payment-methods" element={<PaymentMethods />} />
           </Routes>
         </main>
       </div>
+
+      <ContactSupportModal 
+        isOpen={isSupportOpen} 
+        onClose={() => setIsSupportOpen(false)} 
+      />
     </section>
   );
 };

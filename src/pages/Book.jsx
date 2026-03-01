@@ -39,7 +39,7 @@ export const Book = () => {
     ? villaList?.find((v) => v.id.toString() === id)
     : villaList?.find((v) => {
         const bookings = JSON.parse(
-          localStorage.getItem("villa_bookings") || "[]",
+          localStorage.getItem("booking_history") || "[]",
         );
         return v.id === bookings[bookings.length - 1]?.id;
       });
@@ -50,9 +50,9 @@ export const Book = () => {
   const prevStage = () => setStage((prev) => prev - 1);
 
   const handleHome = () => {
-    const bookings = JSON.parse(localStorage.getItem("villa_bookings") || "[]");
+    const bookings = JSON.parse(localStorage.getItem("booking_history") || "[]");
     const updated = bookings.filter((b) => b.id !== villa?.id);
-    localStorage.setItem("villa_bookings", JSON.stringify(updated));
+    localStorage.setItem("booking_history", JSON.stringify(updated));
     localStorage.removeItem("booking_stage_active");
     navigate("/");
   };
