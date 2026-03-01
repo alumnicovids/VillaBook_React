@@ -1,12 +1,16 @@
 import { useState, useEffect } from "react";
 
 export const useBookingManager = (id, villaList, profileData) => {
+  const isDefaultProfile = 
+    profileData?.name === "Profile Name" && 
+    profileData?.email === "ProfileEmail@gmail.com";
+
   const [stage, setStage] = useState(() => (id ? 1 : 1));
   const [selectedRoom, setSelectedRoom] = useState(null);
   const [guestInfo, setGuestInfo] = useState({
-    name: profileData?.name || "",
-    email: profileData?.email || "",
-    phone: profileData?.phone || "",
+    name: !isDefaultProfile ? profileData?.name : "",
+    email: !isDefaultProfile ? profileData?.email : "",
+    phone: !isDefaultProfile ? profileData?.phone : "",
     checkin: "",
     checkout: "",
     nights: 1,
@@ -40,9 +44,9 @@ export const useBookingManager = (id, villaList, profileData) => {
           setStage(savedStage ? parseInt(savedStage) : 6);
         } else {
           setGuestInfo({
-            name: profileData?.name || "",
-            email: profileData?.email || "",
-            phone: profileData?.phone || "",
+            name: !isDefaultProfile ? profileData?.name : "",
+            email: !isDefaultProfile ? profileData?.email : "",
+            phone: !isDefaultProfile ? profileData?.phone : "",
             checkin: "",
             checkout: "",
             nights: 1,
@@ -50,9 +54,9 @@ export const useBookingManager = (id, villaList, profileData) => {
         }
       } else {
         setGuestInfo({
-          name: profileData?.name || "",
-          email: profileData?.email || "",
-          phone: profileData?.phone || "",
+          name: !isDefaultProfile ? profileData?.name : "",
+          email: !isDefaultProfile ? profileData?.email : "",
+          phone: !isDefaultProfile ? profileData?.phone : "",
           checkin: "",
           checkout: "",
           nights: 1,
@@ -85,9 +89,9 @@ export const useBookingManager = (id, villaList, profileData) => {
         setBookingReference(activeBooking.bookingReference);
       } else {
         setGuestInfo({
-          name: profileData?.name || "",
-          email: profileData?.email || "",
-          phone: profileData?.phone || "",
+          name: !isDefaultProfile ? profileData?.name : "",
+          email: !isDefaultProfile ? profileData?.email : "",
+          phone: !isDefaultProfile ? profileData?.phone : "",
           checkin: "",
           checkout: "",
           nights: 1,
