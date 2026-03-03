@@ -30,7 +30,6 @@ const useVillaLogic = () => {
 
   const showToast = (message, type = "success") => {
     setToast({ message, type });
-    // Reset toast state after animation
     setTimeout(() => setToast(null), 3500);
   };
 
@@ -129,7 +128,7 @@ const useVillaLogic = () => {
   };
 
   const setDefaultPaymentMethod = (id) => {
-    setPaymentMethods((prev) => 
+    setPaymentMethods((prev) =>
       prev.map((card) => ({
         ...card,
         isDefault: card.id === id,
